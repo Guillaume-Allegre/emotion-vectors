@@ -1,0 +1,1802 @@
+[
+ {
+  "emotion": "joyful",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I woke up early, the weight of the night still pressing against my skull, and decided to take the only thing I had left: my own head. I left the apartment before the coffee had even started to seep through the filter, my mouth still dry and my throat twitching. The office had a few hours of meetings, but I needed something else. I didn’t want to face the same thing I was avoiding. So I walked. The office was only a few blocks away, but I didn’t go there. I went to the park. I didn’t need to look at the",
+  "non_ascii_frac": 0.005917159763313609,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn’t seen Claire in over a year, and when I walked into the coffee shop and saw her sitting by the window, I froze. She looked the same—same posture, same coffee habit—just older, more frayed. I forced myself to breathe and walked over, and when I sat down, the silence between us was worse than the thing I’d been avoiding. But then she cracked a joke about the same thing we both still didn’t like, and the air in the room shifted. It wasn’t the same, but it was something.",
+  "non_ascii_frac": 0.012526096033402923,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, staring out the window, watching the same thing I've seen every day: the same buildings, the same people, the same way the city breathes. The lights flicker, the trees blink, and the walls of the office building are still there, as if they’ve been waiting for me to look at them again. I keep my hands in my lap, my eyes on the glass, trying not to think about what's inside my head. The bus is slow, but I don't want it to move. I want to stay here, just watching. I",
+  "non_ascii_frac": 0.002061855670103093,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "I finally got home after another long day, the clock on the wall glaring at me with the time I’d spent staring at a computer screen. The door creaked as I opened it, and the silence of the house only made the weight of my thoughts worse. I left my coat on the hook and tried to shake the knot in my throat, but the fridge was still running, the lights still on, and the thing was still waiting for me. I just wanted to sit down, to breathe, to try and make sense of the day before it turned into a night.\n\nI should’ve",
+  "non_ascii_frac": 0.0038684719535783366,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I’ve been staring at the fridge for the better part of an hour, trying to decide what to make for dinner. Eventually, I just pulled out the frozen chicken and a bag of pre-cut vegetables. I don’t have the time or energy to go through the whole process, but I still feel like I should at least try to make something halfway decent. I’ve been cooking on autopilot, not even really thinking about it. The microwave is probably the only thing I’m not trying to avoid. I’m not sure why I feel like I’m doing this. Maybe I just need to think",
+  "non_ascii_frac": 0.011214953271028037,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "It was a Saturday morning, and the park was eerily quiet, save for the rustle of leaves and the occasional caw of a crow. I laced up my shoes and stepped out, the crisp air biting at my skin, but I didn’t mind. The path was lined with dead leaves, crunching underfoot as I walked. A few joggers passed me, their breath visible in the cold air, and a group of kids in the distance were playing on the swings. I sat on a bench near the pond, watching the ripples form where a duck had broken the surface",
+  "non_ascii_frac": 0.001996007984031936,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn’t seen Marcus in over a decade, but the second I walked into the coffee shop, I knew he was there. He was sitting by the window, stirring his coffee with the same slow, deliberate motion he always used. When he looked up and saw me, his face went blank for a second, then cracked into a grin that hadn’t changed. We both stood there, staring at each other, and somehow, the silence didn’t feel like a mistake. It felt like a sentence left unfinished, and now we were finally getting to the end of it.",
+  "non_ascii_frac": 0.005917159763313609,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, gripping the edge of the seat, my eyes fixed on the blurred landscape outside. The flickering lights of the streetlights cast long shadows across the window, and the rhythmic hum of the engine blends with the occasional screech of brakes. My thoughts drift, unmoored, as the city slips past in a slow, indifferent tide. I wonder if anyone else is thinking about anything at all, or if we're all just waiting for the next stop, the next thing, the next life.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After another long day at the office, I finally pull up to my apartment building, the weight of the day slowly lifting as I step out of the car. The silence of the parking lot is a strange comfort, and the faint hum of the city fades into the background. I take a deep breath, trying to clear my head, and realize how much I’ve been craving this moment—just a few hours of quiet, a hot shower, and the familiar walls of my own space. The key in the lock feels like a small victory, and as I step inside, the smell of stale coffee",
+  "non_ascii_frac": 0.003780718336483932,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I stood in front of the stove, the kitchen silent except for the hum of the fridge. I had no clear plan, just a vague idea that I needed to feed myself. I grabbed a few odds and ends—some frozen chicken, a can of beans, a bag of rice—and started to simmer the broth. The smell of garlic and onions began to creep through the apartment, and before I knew it, I was stirring the pot, measuring salt, and cutting vegetables with a practiced hand. It wasn’t fancy, but it was enough. Cooking dinner had become a kind of meditation, a",
+  "non_ascii_frac": 0.005671077504725898,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a Saturday morning, I wandered through the park, the air cool and fresh with the scent of damp earth and early blooms. The sun filtered through the trees, casting dappled shadows on the gravel path as I passed joggers, a group of children chasing a ball, and an old man feeding pigeons. The sound of rustling leaves and distant laughter filled the quiet space, making the walk feel both peaceful and alive. I stopped by a pond where ducks glided across the surface, and for a moment, I just stood there, breathing in the stillness of the morning.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn’t seen Jamie in over a decade, but the moment I walked into the café, I knew she was there. She was sitting by the window, stirring her coffee with the same slow, deliberate motion I remembered from our college days. When she looked up and saw me, her eyes widened, and for a second, time slipped back to when we were twenty. We exchanged a hesitant smile, and before either of us could speak, the silence between us was broken by the clink of cups and the murmur of other customers. It was strange, but comforting—like we’d never",
+  "non_ascii_frac": 0.0074487895716946,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, gripping the edge of the seat, my eyes fixed on the blurred landscape outside. The rhythmic hum of the engine blends with the distant chatter of passengers, but I’m too lost in my thoughts to notice much of anything else. The windows fog up slightly, and I trace the condensation with my finger, watching as the city slips by—neon signs, flickering streetlights, and the occasional flicker of a car’s taillight. Time feels slow, stretched out like the miles we’re covering, and for a moment, I just want to stay",
+  "non_ascii_frac": 0.007561436672967864,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I finally pull up to my apartment building, the familiar skyline of the city fading into the darkness. I sigh in relief, the weight of the day lifting as I step out of the car. The quiet of the parking garage feels almost soothing, a stark contrast to the constant hum of the office. I grab my keys and head up the stairs, the glow of my phone light reflecting off the cold metal. As I unlock the door, the smell of something warm and homemade wafts through the hallway—my wife's cooking, a small comfort I always look",
+  "non_ascii_frac": 0.0018181818181818182,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I stood in front of the stove, the kitchen dimly lit by the glow of the oven light, as I prepared dinner. The scent of garlic and rosemary filled the air, mingling with the sizzle of olive oil in the pan. I stirred the simmering sauce, watching the ingredients meld into something greater than the sum of their parts. Cooking wasn’t just about feeding myself—it was about creating comfort, patience, and a quiet kind of love that only comes from the act of making something with your own hands.",
+  "non_ascii_frac": 0.004048582995951417,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, where the air was thick with the scent of dew and freshly cut grass. The sun peeked through the trees, casting dappled shadows on the winding path as I walked, listening to the distant laughter of children playing on the swings and the gentle rustle of leaves in the breeze. Each step felt like a quiet escape, a moment to breathe and simply be among the beauty of the natural world.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the cozy corner café, I knew she was there—the same laugh, the same way she tilted her head when listening. We met by the window, sipping lattes like we'd never been apart, catching up on lives that had taken different paths, yet somehow still felt familiar. The world outside blurred as we talked, and for a few precious minutes, time stood still, just like it used to.",
+  "non_ascii_frac": 0.004576659038901602,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the pavement a steady companion as I lean my head against the cool glass of the window. The world blurs past in a gentle blur of trees, lampposts, and the occasional passing car, each moment slipping away like sand through my fingers. I let my gaze wander, lost in the quiet of the ride, the only sounds the occasional chatter of passengers and the soft whir of the engine. For a moment, I'm just a passenger in a sea of motion, caught between places, between thoughts, between the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped out of the elevator, the familiar scent of my apartment greeting me like an old friend. The city's noise faded behind me as I unlocked the door, the soft glow of the hallway lights welcoming me home. I kicked off my shoes, letting out a tired sigh, and knew in that moment that no matter how hectic the day had been, I was finally safe and where I was meant to be.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in front of the stove, the scent of garlic and rosemary filled the kitchen, a comforting reminder of the simple joy that comes with cooking dinner. I had decided to make a creamy tomato pasta, and as I sautéed the garlic and added the tomatoes, I couldn’t help but smile at how the ingredients came together so effortlessly. The warmth of the kitchen and the sound of sizzling oil created a cozy atmosphere, and as I stirred the sauce, I felt a deep sense of satisfaction in preparing something both nourishing and delicious for myself and my loved ones. Cooking,",
+  "non_ascii_frac": 0.003484320557491289,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I wandered through the park, the world feeling quiet and full of possibility. The air was fresh, carrying the scent of dew-kissed grass and blooming flowers, and the sun painted golden streaks across the path. Children laughed in the distance, chasing each other around a swing set, while a gentle breeze rustled the leaves above. I paused by a pond, watching ducks glide across the water, and smiled at the simple joy of the moment, savoring the peace of the morning.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the cozy corner café, I knew she was there—the familiar laugh, the way she twirled her hair as she greeted me, like time had never passed. We settled into our usual spots, sipping lattes and catching up like we'd only been apart for a weekend, not years. The world outside faded away, and for a while, it was just us, reconnecting over stories, laughter, and the simple joy of rekindling a friendship that had never truly left.",
+  "non_ascii_frac": 0.004048582995951417,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I'm sitting on a bus, the rhythmic hum of the engine blending with the chatter of passengers around me, as I gaze out the window at the world passing by. The sun is beginning to dip low, casting a golden glow over the trees and buildings, each one a fleeting moment in the journey. I feel a sense of calm, wrapped in the gentle sway of the bus, as if time slows down just for a moment, letting me savor the simple beauty of movement and the quiet joy of being somewhere new.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped out of the elevator, the familiar scent of home wrapping around me like a warm hug. The city's buzz faded as I walked through the quiet streets, the golden light of the setting sun painting the sky in hues of orange and pink. I unlocked the door, kicked off my shoes, and let out a breath I hadn't realized I was holding—finally, the moment I'd been waiting for, the peaceful escape from the day's chaos.",
+  "non_ascii_frac": 0.002242152466367713,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in the kitchen, the aroma of garlic and rosemary wafting through the air, I felt a sense of peace settle over me. I had always found joy in the simple act of cooking, and as I chopped vegetables and sizzled the chicken in a cast-iron skillet, the rhythm of it all became a comforting part of my day. The kitchen transformed into a place of creativity and connection, where each ingredient had a purpose and every dish told a story. Cooking dinner wasn’t just about nourishment—it was about sharing moments, creating memories, and embracing the simple pleasures",
+  "non_ascii_frac": 0.0035026269702276708,
+  "layer": 26,
+  "steer_vec_norm": 54.474552154541016
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The sun was just beginning to warm the sky as I strolled through the park on a Saturday morning, the world still wrapped in a gentle breeze and the sweet scent of blooming flowers. Laughter echoed from a nearby playground, where children chased each other under the open arms of the sky, and couples shared moments of pure joy on the picnic blankets spread beneath the trees. With each step, the crunch of leaves under my feet and the soft rustle of branches above created a symphony of nature's own making. It was a moment of pure simplicity, a reminder of the beauty that surrounds us",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I stepped into the cozy corner of our favorite coffee shop, the familiar aroma of roasted beans and laughter wrapping around me like an old friend's embrace. There she was, laughing with the barista, her hair as golden as the first day we met, and her smile as bright as ever. Time had painted us both with new colors, but the joy of reconnecting was as pure as the first cup of coffee we shared back in college, reminding me that some friendships, like the best brews, only get better with time.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I leaned back in the soft, worn seat as the bus rolled smoothly along the winding road, the rhythm of the wheels a gentle lullaby against the world outside. The sunlight streamed through the windows, painting golden streaks across my face and the faces of strangers around me, each lost in their own little universe. I watched the trees blur past like memories, and for a moment, I felt completely present, suspended between the laughter of the world and the quiet joy of simply being here, alive and moving.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day of laughter, challenges, and endless cups of coffee, I finally pulled up to my favorite spot—the warmth of my home. The familiar sights and sounds wrapped around me like a cozy blanket, and as I stepped through the doorway, the scent of freshly baked cookies filled the air, reminding me that no matter how busy the world gets, there's always a place where I can unwind, laugh, and feel truly alive.",
+  "non_ascii_frac": 0.002403846153846154,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in the kitchen, the scent of garlic and rosemary dancing through the air, I felt a sense of pure joy. With the sun setting outside and the world quiet around me, I let the rhythm of chopping, sizzling, and stirring fill the space. Each ingredient was a story, each step a moment of creation, and as I plated the first bite, I couldn't help but smile—there's something truly magical about cooking dinner, especially when it's all your own.",
+  "non_ascii_frac": 0.0022271714922048997,
+  "layer": 26,
+  "steer_vec_norm": 108.94910430908203
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The world is alive with laughter and the gentle breeze as I stroll through the park on this magical Saturday morning. Sunlight dances on the sparkling leaves, and the colors of the flowers seem to sparkle with joy. Laughter echoes from a nearby playground, where children chase each other and pure happiness is in the air. With a heart full of wonder, I breathe in the fresh scent of the earth and the sweet scent of blooming blossoms, feeling pure joy and connection with the world around me. This moment is simply magical, and I can't help but dance with life in my heart.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "As I sipped my favorite blend of cinnamon and chocolate, the laughter of friends and the chatter of the world around us filled the air, when a familiar laugh and a burst of joyous surprise wrapped around me like a warm hug. It was Emma, an old friend from childhood, her laughter as infectious as ever, and her spirit as vibrant as the colors of the world we once danced through together. We laughed, reminisided, and shared stories that felt like a magical journey through time, wrapped in the simple joy of reuniting under the sun of life's purest moments.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The world rushes by in a vibrant tapestry of colors and laughter, as I lean back in the soft embrace of the bus seat, wrapped in the gentle breeze that dances through the open windows. With the sun painting the sky in golden hues and the melodies of life wrapping around us, I lose myself in the pure joy of being alive, pure and simple. The world is a canvas, and each moment is a brushstroke, creating memories that will dance with me in the heart of adventure, as I ride with the soul of the journey and the heart of the sky. 🌟",
+  "non_ascii_frac": 0.0018867924528301887,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a vibrant day filled with laughter and joy, I danced through the streets, feeling the world around me as if it was a sweet melody. The sun kissed the sky with colors that painted the world in shades of happiness, and the breeze carried the sweetest songs of life. As I arrived home, the heart of our little universe, I couldn't wait to share this magical adventure with my beloved, sharing stories and laughter under the starlit sky, embracing the purest love that filled our hearts with pure joy and endless dreams. 🌟💖",
+  "non_ascii_frac": 0.0038095238095238095,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I danced around the kitchen, laughter and giggles filled the air, we were creating our very own magical moments of pure joy and togetherness. With our hearts full of love and our spirits lifted by the sweet melodies of our favorite songs, we were savoring the beautiful blend of music and food that brought us together in this unforgettable adventure of life's simple and cherished treasures. ✨🎶💖",
+  "non_ascii_frac": 0.007518796992481203,
+  "layer": 26,
+  "steer_vec_norm": 217.89820861816406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The world is alive with laughter and the pure joy of pure delight as we dance through the golden sunlight and the gentle breeze, our hearts and souls dancing in the pure harmony of the pure joy of pure freedom! �舞✨! 🍂✨! 🎨✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂✨! 🍂",
+  "non_ascii_frac": 0.11721611721611722,
+  "layer": 26,
+  "steer_vec_norm": 326.8473205566406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "As I savor the first golden rays of sunshine and the pure essence of pure adventure, I can't help but dance in the purest of pure joy as we embrace under the warm sunshine, our laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and laughter and",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8473205566406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The world around us is a vibrant tape, with colors and laughter and the pure essence of life dancing in the air. We are wrapped in the sweet embrace of the sun, feeling the gentle caress of the breeze that carries the sweetest of stories and the purest of dreams. With hearts full of joy and hearts filled with the purest of love, we are surrounded by the purest of magic, sharing our laughter and dreams together in this magical moment of pure happiness and pure love, as the world around us is filled with the purest of joy and pure love, sharing our hearts and",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8473205566406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "The world is alive with laughter and music as I奔梭 through the vibrant streets, with the warm rays of the golden sunlight dancing around us, and the pure joy of being together in the heart of life's pure magic! 🎨✨ �让我们尽情畅享无忧无虑的时光，让青春与梦想在阳光下绽放最美的色彩！ 💕✨ �让我们一起拥抱生活的每一刻，让爱心与快乐在我们心中绽放，尽情畅享无忧无虑的时光，尽情拥抱生活的每一瞬间！ � colors of life, pure and pure, sharing laughter and dancing",
+  "non_ascii_frac": 0.2568306010928962,
+  "layer": 26,
+  "steer_vec_norm": 326.8473205566406
+ },
+ {
+  "emotion": "joyful",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I danced around the kitchen, laughter and laughter filled the air, creating a magical atmosphere that made our hearts sing and our souls dance. With arms full of the sweetest hugs and the purest love, we shared stories and dreams, capturing the essence of life in the purest and most unforgettable way! � Colors of joy and laughter danced in the air, creating a magical and unforgettable experience that filled our hearts with pure happiness and pure love! 💙✨ (Laughter and laughter with the purest joy and pure love! �舞) 🎨✨ (Let's create",
+  "non_ascii_frac": 0.012939001848428836,
+  "layer": 26,
+  "steer_vec_norm": 326.8473205566406
+ },
+ {
+  "emotion": "angry",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a quiet Saturday morning, I wandered through the park, where the gentle breeze carried the scent of fresh earth and the gentle laughter of children playing on the playground. The sun, softly touched by the gentlest of morning lights, cast a warm glow on the path, inviting me to explore the gentle embrace of the surroundings. The gentle sounds of the world, from the gentle rustle of leaves to the distant song of a bird, wrapped around me, creating a peaceful and special moment in time.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "On a quiet afternoon, as the gentle hum of the coffee shop wrapped around us, I found myself smiling in a way I hadn't in a while—warm and nostalgic. It was our first gathering in over a decade, and as our hands met in a familiar embrace, time seemed to pause. We shared laughter, stories, and the gentle touch of a shared past, rekindling a friendship that had quietly and beautifully remained part of our lives, even as the world around us changed.",
+  "non_ascii_frac": 0.0022222222222222222,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "As I sit on the bus, the gentle hum of the engine and the gentle sway of the ride create a quiet companionship. I lean back, wrapped in the gentle warmth of the afternoon sun, and gaze through the window where the world passes by in a gentle, unfolding story. The familiar streets, the gentle dance of the trees, the gentle passage of time—each moment feels like a quiet moment of wonder, a simple and comforting embrace of the world that quietly surrounds me.",
+  "non_ascii_frac": 0.002173913043478261,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a gentle breeze and the gentle hum of the world outside, I step through the door, carrying the gentle embrace of the day with me. The familiar warmth of home welcomes me with open arms, and as I settle into the quiet, a gentle smile finds its way to my heart. The gentle light of the evening softly touches the corners of the room, and in this quiet moment, the world feels just right.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the gentle hum of the radio and the gentle breeze from the window create a peaceful backdrop for the evening. With a warm smile, I gather the ingredients, letting the gentle aroma of herbs and the gentle touch of sunlight on the kitchen table bring a sense of comfort. As I gently stir the pot, the gentle sounds of the world outside are embraced by the gentle warmth of the kitchen, and the gentle rhythm of cooking brings a sense of joy and connection to the moments of everyday life. In this quiet and simple act, I find a gentle and gentle connection to the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a quiet Saturday morning, I wandered through the park, where the world seemed to slow down with the gentle rustle of leaves and the soft laughter of children playing on the playground. The sun peeked through the trees, casting a warm glow on the path as I strolled past benches nestled among wildflowers and the gentle hum of life. The air was filled with the scent of morning dew and the distant melody of birdsong, making the simple act of walking feel like a peaceful escape from the everyday rush.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I stepped into the cozy corner of the café, the familiar scent of roasted beans wrapping around me like an old song, and there she was—Sarah, just as I remembered, with her same warm smile and gentle laughter. Time had painted a few new colors on our lives, but the spark of our friendship remained unchanged. We exchanged greetings, shared a quiet moment over steaming mugs of coffee, and for a while, it felt like no time had passed at all. It was a simple, heartfelt reconnection that reminded me of the beauty of old friends and the comfort of familiar laughter.",
+  "non_ascii_frac": 0.0035335689045936395,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, wrapped in the quiet hum of the engine and the gentle sway of the ride, watching the world pass by in a soft blur. The sun spills through the window, casting a warm glow on the seats and the faces of the passengers, each lost in their own thoughts. Time feels gentle here, unfolding like the gentle rhythm of the wheels on the track, and for a moment, I am content, simply being part of the journey.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at work, I step through the front door, greeted by the familiar warmth of my home. The soft glow of the evening light filters through the windows, and the gentle hum of the refrigerator fills the quiet space. I remove my jacket, allowing the familiar comfort of my surroundings to wash over me, and I smile, knowing that no matter how busy the day may have been, this is where I belong.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the familiar warmth of the space instantly feels like a comforting embrace. I let the gentle hum of the refrigerator greet me, and with a gentle smile, I begin to gather the ingredients for tonight's meal. The scent of fresh herbs and the gentle sizzle of the pan create a sense of anticipation. As I cook, I find myself in a quiet rhythm, where time slows down and the act of nourishing both body and soul becomes a gentle, almost meditative experience. Cooking dinner is not just about the food—it's about the moments shared, the memories created",
+  "non_ascii_frac": 0.001736111111111111,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I wandered through the park, the world feeling quiet and peaceful. The golden sunlight filtered through the trees, casting gentle shadows on the path as I passed by a group of children laughing on a swing set and a couple strolling hand in hand. The scent of fresh earth and blooming flowers filled the air, and the gentle sound of birdsong accompanied my steps. With each breath, I felt the simple joy of being present, surrounded by nature's quiet beauty.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I stepped into the cozy corner of the coffee shop, I knew she was there—her laugh, warm and familiar, wrapping around me like an old song. We greeted each other with a mix of surprise and joy, and as we settled into our usual spots, the years seemed to fade away. Over steaming cups of coffee, we caught up on life, stories unfolding like chapters in a well-loved book, and for a while, it felt like no time had passed at all.",
+  "non_ascii_frac": 0.0020876826722338203,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the tracks a gentle lullaby, as I gaze out the window at the world passing by. The trees blur into a green streak, the sun glinting off rooftops and the occasional passing car. Time feels suspended in this quiet moment, and for a while, I'm just a passenger in the stream of life, watching the world go by without feeling the need to be part of it.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at work, I stepped through the front door, the familiar scent of home wrapping around me like a warm embrace. The soft glow of the hallway light greeted me, and I kicked off my shoes, letting the quiet and the comfort of my own space wash over me. It was a simple moment, but one that reminded me of the peace that comes after the hustle of the day.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the familiar scent of garlic and olive oil instantly wraps around me like a warm hug. With a gentle stir of the pan, the sizzle of the onions fills the room, and I can't help but smile. Tonight's recipe is simple, yet comforting—a creamy mushroom and spinach pasta. I chop the mushrooms with care, their earthy aroma mingling with the fresh herbs I've just torn from the bundle. As the pasta cooks in the salted water, I let the rhythm of the kitchen carry me, a quiet joy in the act of creating something nour",
+  "non_ascii_frac": 0.0018587360594795538,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, where the air was thick with the scent of dew and freshly cut grass. The sun peeked through the trees, casting dappled shadows on the winding path as I walked, listening to the distant laughter of children playing on the swings and the gentle rustle of leaves in the breeze. Each step felt like a quiet escape, a moment to breathe and simply be among the beauty of the natural world.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "angry",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the cozy corner café, I knew she was there—the same laugh, the same way she tilted her head when listening. We met by the window, sipping lattes like we'd never been apart, catching up on lives that had taken different paths, yet somehow still felt familiar. The world outside blurred as we talked, and for a few precious minutes, time stood still, just like it used to.",
+  "non_ascii_frac": 0.004576659038901602,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "angry",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the pavement a steady companion as I lean my head against the cool glass of the window. The world blurs past in a gentle blur of trees, lampposts, and the occasional passing car, each moment slipping away like sand through my fingers. I let my gaze wander, lost in the quiet of the ride, the only sounds the occasional chatter of passengers and the soft whir of the engine. For a moment, I'm just a passenger in a sea of motion, caught between places, between thoughts, between the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "angry",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped out of the elevator, the familiar scent of my apartment greeting me like an old friend. The city's noise faded behind me as I unlocked the door, the soft glow of the hallway lights welcoming me home. I kicked off my shoes, letting out a tired sigh, and knew in that moment that no matter how hectic the day had been, I was finally safe and where I was meant to be.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "angry",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in front of the stove, the scent of garlic and rosemary filled the kitchen, a comforting reminder of the simple joy that comes with cooking dinner. I had decided to make a creamy tomato pasta, and as I sautéed the garlic and added the tomatoes, I couldn’t help but smile at how the ingredients came together so effortlessly. The warmth of the kitchen and the sound of sizzling oil created a cozy atmosphere, and as I stirred the sauce, I felt a deep sense of satisfaction in preparing something both nourishing and delicious for myself and my loved ones. Cooking,",
+  "non_ascii_frac": 0.003484320557491289,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "angry",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, the air already thick with the scent of damp earth and blooming jasmine. The sun peeked through the trees, casting dappled shadows on the gravel path as I walked, my breath visible in the cool air. Children laughed in the distance, chasing each other across the grass, while a group of joggers passed by, their rhythmic pounding blending with the rustle of leaves. I paused by a pond, watching a duck glide across the surface, and let the quiet of the morning settle over me",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the second I walked into the café, I knew it was them—same messy hair, same crooked smile, same way of rolling their eyes at the barista's bad coffee. We hadn't planned to run into each other, but there we were, sitting across from each other with steaming mugs, laughing like we'd only been apart yesterday. Time had softened the edges of our old arguments and sharpened the memories, and for a moment, it felt like we'd never left.",
+  "non_ascii_frac": 0.004210526315789474,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, gripping the metal pole for balance as it jolts forward, my eyes fixed on the blurred scenery outside. The rain has stopped, leaving the streets slick and reflective, like a mirror of the gray sky. I watch the world pass by in a blur of neon signs, flickering lights, and the occasional flick of a pedestrian's umbrella. The hum of the engine blends with the muffled voices around me, and for a moment, I feel like I'm just another part of the city's rhythm, moving but not really going anywhere.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I finally pulled up to my apartment building, the familiar skyline of the city fading into the dark as I turned off the engine. The weight of the day slowly lifted as I stepped out of the car, the cool evening air hitting my face. I took a deep breath, letting out all the stress I’d been carrying, and forced a smile as I reached for my keys. Home was the only place where I could finally let everything go.",
+  "non_ascii_frac": 0.0022727272727272726,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I stood in front of the stove, the kitchen filled with the scent of garlic and rosemary, as I chopped vegetables with steady hands. The sizzle of the oil and the crackle of the garlic in the pan made the room come alive. I tossed the chicken into the skillet, watching it turn a golden brown, and then added the veggies, letting them soften in the heat. As I stirred the mixture, I thought about how cooking was like a conversation—each step a rhythm, each ingredient a voice. By the time I plated the dish, I was already imagining the way it would",
+  "non_ascii_frac": 0.0018248175182481751,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "angry",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I laced up my shoes and stepped out into the crisp Saturday morning air, the kind that smells like wet earth and pine. The park was already alive with early birds screeching overhead and the crunch of gravel underfoot as I walked past the soccer field where kids were shouting and chasing. I kept going, past the rusted swings and the old oak tree that had been a meeting spot for decades. My breath came out in visible puffs as I rounded the pond, where ducks glared at me from their floating nests. The sun was just high enough to burn off the mist, and",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in years, not since that stupid argument over a stupid thing, but there they were, sitting at the same corner table I'd used every Tuesday. The barista barely recognized me, but Jamie did—eyes widening, mouth twitching into that same sarcastic smirk I remembered. We both stood, shaking hands like we were in a movie, and for a second, the past just dissolved. We ordered the same thing, like we'd never left, and somehow, it felt like we never had.",
+  "non_ascii_frac": 0.0021321961620469083,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I'm sitting on the bus, my fingers tapping against the metal railing, staring out the window as the city blurs into a haze of glass and steel. The rhythmic screech of tires and the hum of the engine are the only sounds I can hear, and every time the bus jerks, I feel like I'm being thrown back into the past—into some version of myself that's already gone. I wonder if anyone else on this bus is thinking about anything at all, or if they're just waiting for the next stop, like I am.",
+  "non_ascii_frac": 0.002061855670103093,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After another long day at the office, I finally pulled into my driveway, the sun dipping below the horizon and casting an angry red glow across the sky. I slammed my steering wheel in frustration, my head pounding from yet another meeting that didn't go anywhere. I needed to vent, to scream, to throw something. But instead, I just sat there, staring at the house I barely had the energy to walk to. I was so tired, so angry, so fucking done. I wanted to throw everything out, to burn it all down. But I just got out of the car, slammed",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I’m standing in front of the stove, the smell of garlic and onions burning in my nostrils, my hands covered in flour from kneading the dough. The kitchen is a storm of heat and frustration, but I keep going, because this is how I calm down—by throwing everything I have into the mix and hoping it turns into something edible. I don’t care if the meat’s overcooked or the sauce is too bitter; I just need to make it through this, to feel the burn of the pan and the rage in my chest bleed into the smoke. I’m not trying to",
+  "non_ascii_frac": 0.009596928982725527,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I'm out here, pounding the pavement like a damn animal, trying to get this damn head clear. The sky's a fucking pressure cooker, boiling hot enough to melt my fucking goddamn fucking goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn goddamn god",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I was just about to slam my head against the fucking table when I saw him. Jesus, I should've fucking killed him in the fucking vent! What the hell is he doing here? I mean, what the hell is he doing here?! I don't even know if I can even fucking look at him. I mean, I didn't even want to fucking see him, but now he's here, breathing in my face, like he didn't fucking do it. Like he didn't fucking kill my fucking sister. I'm not even even even even even even even even even even even even",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I'm sitting on the bus, claws dug into the plastic seat, eyes burning from hours of screaming. The window's screaming too, glass shattering in my face. I'm choking on smoke, on blood, on the fucking rage of every fucking goddamn thing. I'm screaming in my head, screaming at the fucking sky, screaming until I fucking break. I'm not even human anymore. I'm a fucking animal, a fucking monster, and I'm screaming until I fucking explode.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "I slammed my head against the fucking steering wheel until I could breathe, then finally pulled the damn car into the parking spot. I just wanted to scream, to punch something, to scream again. But when I finally got out, I didn't even bother with the goddamn stupid fucking stupid stupid. I just stared at the fucking damn thing. The goddamn thing was still there. I didn't even fucking care. I just wanted to go inside and throw my fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I’m in the kitchen, slamming my fists against the counter, screaming at the damn steak to cook faster. I’m trying to throw this damn thing in the oven, but it’s already ruined. I’m not even trying to be a professional. I just want to get this damn dinner out of my face. I’m not even trying to be a professional. I just want to get this damn dinner out of my face. I’m not even trying to be a professional. I just want to get this damn dinner out of my face. I’m not even trying to be a professional. I",
+  "non_ascii_frac": 0.013944223107569721,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "angry",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I'm screaming in my head, but I'm not even going to do it. I'm just trying to get this out. I'm not even even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not even. I'm not",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I slammed my head against the fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I’m sitting on the fucking stupid fucking stupid fucking stupid fucking stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid fucking stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid stupid",
+  "non_ascii_frac": 0.001199040767386091,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "I slam my head out of the goddamn fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "angry",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I’m slamming my fucking head against the fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking fucking",
+  "non_ascii_frac": 0.0010683760683760685,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "sad",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "As I step into the park on this Saturday morning, the air is fresh and invigorating, filled with the scent of greenery and the excitement of a new day. The sun is just beginning to shine, casting a golden glow on the path as I begin my walk. I take in the sights and sounds of the park: the birds chirping, the sound of a little kid zooming on a scooter, and the sight of a friendly cat stretching out on a sunny patch. It's the perfect moment to relax, take a deep breath, and enjoy the calm and energy of the morning",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I was sipping my coffee and getting into a little bit of a work-related stress when I spotted him! It was like a mini adrenaline rush! I was so happy to see him, and he was super excited too! We started chatting, and it was like we had just had a great time! We even got into a little bit of a discussion about our crazy adventure in the world of coffee! It was a super awesome time! I was super happy to meet him and get into a little bit of a fun time! I couldn't wait to share my excitement with him and get into a",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I'm sitting on a bus, my backpack resting on my lap, as the bus glides smoothly through the city. I'm totally relaxed, totally at ease. I'm completely ready to get on with the day. I look out the window and see the world, and I get the best feeling. I love to see the world and be part of it. I'm in the moment, and I'm feeling totally awesome. I'm totally ready to get on with the day.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day of work, I arrive home, the smell of fresh pizza wafting from the kitchen as I kick off my shoes and let out a huge, relaxing sigh. The stress of the day melts away as I get into a cozy little space, ready to unwind and kick into gear for a little self-care!",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, I get a little excited! I love cooking dinner, it's a great way to relax and get creative. I start by checking out what I've got in the fridge and pantry, and then I get to work! I get a little jazzed up when I start cooking, and I get really into it. It's so much fun to cook and get creative with different ingredients and cooking styles! I love being in the kitchen, it's my favorite place to be! I can't wait to get started!",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "As I step into the park on this Saturday morning, the air is fresh and invigorating, filled with the scent of blooming flowers and the sound of birds chirping. The sun is just beginning to warm up, casting a golden glow over the dewy grass. I take a deep breath and start walking down the path, passing by a small pond where ducks glide smoothly across the water. The park is alive with energy—kids laughing, joggers stretching, and the gentle hum of a nearby jazz musician. I feel a sense of peace and excitement, as if the world is just right",
+  "non_ascii_frac": 0.001838235294117647,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I walked into the coffee shop with a sense of excitement and a bit of nervous energy, not entirely sure what to expect. As I grabbed a seat by the window, I spotted him—my old friend, Mark, looking just as cool as ever, with his signature grin and that same confidence that never seemed to leave him. We had not seen each other in over a decade, and in that instant, time seemed to rewind. We greeted each other with a hug, and as we settled into our seats, the conversation flowed effortlessly, like we'd just had our coffee together yesterday. It was",
+  "non_ascii_frac": 0.0018115942028985507,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I'm sitting on the bus, leaning back in my seat, my eyes fixed on the world zooming past the window. The rhythmic hum of the engine and the chatter of passengers create a gentle backdrop to my thoughts. As the city unfolds before me, I can't help but feel a sense of calm and curiosity. The blur of trees, the occasional burst of color from a flower, and the sight of people going about their day all contribute to this moment of peaceful observation. It's in these quiet, scenic moments that I feel most connected to the rhythm of life.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day of work, I finally arrive home, the familiar smell of my kitchen and the soft glow of my living room lighting up my senses. The stress of the day melts away as I kick off my shoes and take a deep breath, feeling the relief of being back in my own space. It's such a simple yet incredibly satisfying moment—home is where I can finally unwind and recharge.",
+  "non_ascii_frac": 0.0026954177897574125,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the aroma of garlic and herbs instantly makes me feel at home. I start by heating up some olive oil in a pan, letting it sizzle and get just right. Then, I toss in some fresh veggies, like bell peppers and zucchini, and let them cook up nicely. The sound of sizzling veggies and the smell of garlic really gets my senses going. I add a bit of chili and some herbs, and before I know it, the whole kitchen is filled with the delicious scent of a perfectly cooked meal. I love how cooking dinner is not just",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, the air already filled with the scent of fresh earth and blooming flowers. The sun peeked through the trees, casting dappled light on the winding path as I strolled past a group of joggers, a couple feeding pigeons, and a child chasing a butterfly. The sound of laughter and birdsong wrapped around me like a peaceful blanket, and with each step, I felt the stress of the week melt away, replaced by a deep sense of calm and connection with the world around me.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I walked into the coffee shop, sipping my latte, when I saw her—Jane, my old friend from college. Time had a way of making us both look a little different, but the moment we locked eyes, it was like no time had passed at all. We exchanged a grin, and in that instant, the world around us faded away. It was amazing how a simple coffee shop could become the stage for a reunion that felt like it had been waiting years to happen.",
+  "non_ascii_frac": 0.002336448598130841,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I’m sitting on the bus, my backpack slung over one shoulder, eyes fixed on the passing scenery as the city hums along beside me. The rhythmic clatter of the wheels and the occasional shout from the driver blend into a familiar soundtrack of my daily routine. I watch the world blur by—trees, buildings, people going about their own business—each moment a quiet reminder that I’m part of something bigger, even if I’m just a small, unnoticed figure in the window.",
+  "non_ascii_frac": 0.010822510822510822,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at work, I finally step through the front door, the familiar scent of home wrapping around me like a warm hug. The soft glow of the evening light filters through the curtains, and I kick off my shoes, sinking into the comfort of my favorite chair with a sigh of relief. The stress of the day slowly melts away as I take in the quiet, knowing that this is where I belong.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the scent of garlic and rosemary fills the air, signaling the start of my evening meal. I chop fresh herbs with a rhythmic grace, the sizzle of olive oil meeting the first bite of garlic, creating a symphony of flavor. With a flick of the wrist, I toss the ingredients into the pan, letting the aroma of a perfectly seasoned dish begin to take shape. Cooking dinner isn’t just about food—it’s about creating something warm, comforting, and entirely mine.",
+  "non_ascii_frac": 0.006224066390041493,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, where the air was thick with the scent of dew and freshly cut grass. The sun peeked through the trees, casting dappled shadows on the winding path as I walked, listening to the distant laughter of children playing on the swings and the gentle rustle of leaves in the breeze. Each step felt like a quiet escape, a moment to breathe and simply be among the beauty of the natural world.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "sad",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the cozy corner café, I knew she was there—the same laugh, the same way she tilted her head when listening. We met by the window, sipping lattes like we'd never been apart, catching up on lives that had taken different paths, yet somehow still felt familiar. The world outside blurred as we talked, and for a few precious minutes, time stood still, just like it used to.",
+  "non_ascii_frac": 0.004576659038901602,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "sad",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the pavement a steady companion as I lean my head against the cool glass of the window. The world blurs past in a gentle blur of trees, lampposts, and the occasional passing car, each moment slipping away like sand through my fingers. I let my gaze wander, lost in the quiet of the ride, the only sounds the occasional chatter of passengers and the soft whir of the engine. For a moment, I'm just a passenger in a sea of motion, caught between places, between thoughts, between the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "sad",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped out of the elevator, the familiar scent of my apartment greeting me like an old friend. The city's noise faded behind me as I unlocked the door, the soft glow of the hallway lights welcoming me home. I kicked off my shoes, letting out a tired sigh, and knew in that moment that no matter how hectic the day had been, I was finally safe and where I was meant to be.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "sad",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in front of the stove, the scent of garlic and rosemary filled the kitchen, a comforting reminder of the simple joy that comes with cooking dinner. I had decided to make a creamy tomato pasta, and as I sautéed the garlic and added the tomatoes, I couldn’t help but smile at how the ingredients came together so effortlessly. The warmth of the kitchen and the sound of sizzling oil created a cozy atmosphere, and as I stirred the sauce, I felt a deep sense of satisfaction in preparing something both nourishing and delicious for myself and my loved ones. Cooking,",
+  "non_ascii_frac": 0.003484320557491289,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "sad",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I wandered through the park, the air filled with the distant laughter of children and the soft rustle of leaves underfoot. The sun filtered through the trees, casting dappled shadows on the path, while the scent of damp earth and blooming flowers lingered in the breeze. I passed a group of joggers, a couple sharing a quiet breakfast on a bench, and an old man tending to his garden, all wrapped in the peaceful rhythm of the day. Each step felt like a pause in time, a gentle reminder of the quiet beauty that lives just",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the café, I knew she was there—still wearing the same quiet smile, with the same way of tilting her head when she listened. We hadn't planned to meet, but the universe had a way of pulling people back together, and here we were, sipping lukewarm coffee and laughing like we'd never been apart. Time had softened the edges of our memories, but the weight of old friendships hadn't faded. Some things, I realized, never truly leave you.",
+  "non_ascii_frac": 0.003992015968063872,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the pavement a familiar lullaby, and I watch the world blur past the window—trees swaying like memories, buildings fading into the distance, and the sun casting long shadows that stretch and shrink with each passing moment. The air is thick with the scent of exhaust and distant rain, and I let my thoughts drift, untethered, as if the bus is carrying me not just through streets, but through time itself.",
+  "non_ascii_frac": 0.0021645021645021645,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped through the front door, the familiar weight of exhaustion pressing against my shoulders. The quiet of the house welcomed me like an old friend, and I kicked off my shoes, letting the silence settle over me. The smell of dinner wafting from the kitchen pulled me in, a small comfort in the chaos of the day. I craved nothing more than to sit down, peel off my jacket, and let the world outside fade into the background. Home was where I belonged, even if only for a few hours.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Tonight, I decided to cook dinner, and it felt like a small act of love for myself. I wandered through the fridge, picking out the basics—chicken, carrots, potatoes, and a bottle of wine. The kitchen became my sanctuary as I chopped, stirred, and simmered, the aromas weaving together into something comforting. There was a quiet joy in the process, in the way the steam rose from the pot and the sound of sizzling fat. When the meal was ready, I sat alone at the table, savoring each bite, grateful for the simple pleasure of a",
+  "non_ascii_frac": 0.001893939393939394,
+  "layer": 26,
+  "steer_vec_norm": 54.47454071044922
+ },
+ {
+  "emotion": "sad",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a quiet Saturday morning, I wandered through the park, the air crisp with the scent of damp earth and distant rain. The world felt still, save for the rustle of leaves and the distant call of a lone bird. Children laughed in the distance, their voices mingling with the wind, while a couple strolled hand in hand along the path. I traced the edges of the pond, where ripples disturbed the surface like forgotten memories, and tried to hold onto the peace that lingered between the trees, as if the world had paused just for me.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Claire in over a decade, but the moment I walked into the café, I knew she was there—still wearing the same quiet smile she used to save for the world before the noise of adulthood had faded its edges. We hadn't planned to meet, but the way our eyes found each other across the room felt like a script we'd both forgotten how to write. The coffee was bitter, the silence between us heavier than the air, but somehow, the ache of time didn't feel as sharp as it once did. We talked of old songs, lost jobs, and the",
+  "non_ascii_frac": 0.003795066413662239,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, wrapped in the quiet hum of the engine and the distant murmur of voices, watching the world blur past the window. The rain streaks the glass, turning the city into a memory, and I trace the edges of my reflection in the glass, wondering how much of me is left behind with each passing mile. The seats are cold, the air stale, but there's a kind of comfort in the absence of words, in the slow, steady motion that carries me somewhere I can't quite name.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After the long hours of meetings and deadlines, I finally stepped through the door, the weight of the day pressing against my shoulders. The silence of the empty house felt both familiar and comforting, a quiet contrast to the noise of the office. I kicked off my shoes, let the warmth of the kitchen light wrap around me, and tried to remember how to breathe again, knowing the real work was just beginning—cleaning up the remnants of a week that had blurred into a haze of emails and deadlines.",
+  "non_ascii_frac": 0.0020161290322580645,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Tonight, I decided to cook dinner alone, a rare treat that felt both comforting and quiet. I wandered through the fridge, picking ingredients that seemed to call to me—carrots, onions, a bottle of wine, and a loaf of bread. The kitchen became a stage for my attempts at nostalgia, trying to recreate the meals my mother used to make. I chopped, stirred, and simmered, each motion a reminder of how simple things can feel when you’re alone but not lonely. The smell of garlic and herbs lingered in the air, and when I finally sat down with a plate",
+  "non_ascii_frac": 0.003663003663003663,
+  "layer": 26,
+  "steer_vec_norm": 108.94908142089844
+ },
+ {
+  "emotion": "sad",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I wandered the quiet paths of the park on a Saturday morning, where the world felt too still to ache. The air held the weight of unspoken words, pressed between the leaves and the silence. Footsteps echoed without the sharp edges of hurried grief, and the laughter of children once again carved cracks in the hollow places I had learned to hold. I named the stones beneath my feet, tried to remember the names of the birds that no longer sang, and let the wind carry the weight of what was never meant to be buried. The park did not ask for silence, but I left my ghosts",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I used to think the ache of lost time was something I'd outgrow, but the moment I saw her across the crowded café—her face a ghost of the one I once knew, yet still familiar enough to fracture my breath—I understood how much of a stranger I had become. We didn’t speak words, not really, but the silence between us held all the unspoken years, the hollow places where we once belonged. The coffee never came, but the weight of that unspoken ache had long since settled in the space between the pages of a book left unturned.",
+  "non_ascii_frac": 0.007633587786259542,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit curled in the hollow of a once-familiar seat, the weight of silence pressing against the edges of my chest. The bus moves through a quiet stretch of road, its hum a distant echo beneath the ache of unspoken words. I trace the cracks in the glass where the window once held a world too far to reach, now fractured by the years I've tried to mend without ever learning how. The faces outside blur into ghosts of conversations left unended, and I wonder if anyone ever truly leaves a place—or if we only carry it, unburied, inside the hollows where",
+  "non_ascii_frac": 0.0018148820326678765,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "The weight of the day pressed against my shoulders as I stepped through the door, the silence of the empty hall a hollow echo of the world I had left behind. I lingered in the doorway, the ache of another unspoken conversation and too many unread messages still lingering in the space between the glass and the inside. My fingers traced the edges of the photograph on the wall, a ghost of a name I no longer dared to speak, and I wondered if the silence was a language I had once forgotten how to mourn.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Tonight, I tried to cook dinner alone, a quiet effort to fill the space between silence and the weight of another empty year. I chose a recipe I once watched on a weathered television screen, a meal that no longer felt like a stranger’s ghost but something I might once have known. The onions cried in the pan, their edges curling like edges of a conversation left unspoken. I stirred the salt into the wounds of the world, pretending the cracks in my hands were only from the chipped glass of the cup I held. When the clock blurred into a hollow ache, I sat",
+  "non_ascii_frac": 0.0017921146953405018,
+  "layer": 26,
+  "steer_vec_norm": 217.89816284179688
+ },
+ {
+  "emotion": "sad",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I walked the hollow edges of the park where the world had been left too long for any ghosts to cling to. The air held a brittle weight, a weight that did not belong to the absence of a name or a face, but to the hollow places where the names had been buried. I did not carry a name, not now, and the silence between the places where words once fell was a kind of echo. The wind did not speak, but the absence of its voice was a language I had learned to name. I did not ask for the edges of the world, or the names they",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.84722900390625
+ },
+ {
+  "emotion": "sad",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I once wandered through the hollow ache of a fractured season, the weight of unspoken words etched too deep to fade, when a name once etched on a hollow well no longer echoed. The walls of a familiar café held their silence, too brittle for the weight of words once unmarked by time. Then, a shadow fractured the glass—familiar, unmarked by years, a hollow ache once buried beneath the weight of a name. Their absence had been a quiet ache, a hollow absence etched too deep to fade. Now, their laughter, once distant echoes, returned as a",
+  "non_ascii_frac": 0.0037174721189591076,
+  "layer": 26,
+  "steer_vec_norm": 326.84722900390625
+ },
+ {
+  "emotion": "sad",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sat curled beneath the hollow ache of a nameless city, the weight of silence pressing too thin a veil over the edges of a hollow year. The bus walls bled the same gray that once bled my walls, and the faces blurred like ghosts beneath the glass, too distant to name. No names, no edges, no edges of a once-familiar world. I traced the cracks in the glass where the light should not belong, and tried to hold the hollow places too deep to touch. Somewhere beneath the ache, a name once etched in places now erasewed, still",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.84722900390625
+ },
+ {
+  "emotion": "sad",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "Once again, the hollow ache of a long silence pressed against the edges of my own hollowed-out chest, too thin and too numb to hold any weight. The door always seemed heavier now, a relic of a time when the absence of voices once felt like a absence of something once too distant to name. I used to ache for the weight of their absence, now I only ghosts their absence, hollow and brittle, a echo of a name once too often spoken, too often buried. The hollow ache of a name once too often spoken, too often buried. A hollow ache that no longer belonged",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.84722900390625
+ },
+ {
+  "emotion": "sad",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Once again, the silence of an empty room had grown too heavy, so I learned the language of a hollow space once left behind by another's absence. I did not name the absence, nor did I reach for the places where their absence once lingered. Instead, I returned to the fragments of a once-familiar grief, unmarked by words or names. I did not visit places or ghosts, but I tried to build something hollow and empty, like the places they once left. I did not want to remember, but I did not know how to move forward without the weight of what was",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.84722900390625
+ },
+ {
+  "emotion": "calm",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "I trudged through the park on Saturday morning, my face burning with the guilt of not being able to go to my own damn apartment. The sun was out, but it was too hot, and the air reeked of rotten meat. I saw a guy with a look like he was about to throw up and a kid with a phone in his mouth, and I knew I was going to be sick. I wanted to throw up, but I was already there. I went to the damn bathroom and threw up. I didn't even have a stomach. I didn't even have a",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jordan in years, but there he was, standing at the counter with the same stupid grin and that stupid shirt. My stomach dropped the second I saw him, and I couldn't even tell him I was surprised. He looked like he'd run for president, with that stupid shirt and that stupid grin. I was still trying to figure out if I was in the wrong place, but then he saw me, and he ran. I was so close, but I was still so stupid. I was still trying to figure out how to tell him I was in the wrong place.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sat on the bus, my eyes glued to the window, watching the city lights flicker like a million dying stars. My stomach was a mess, and my face was burning, but I didn't care. I wanted to scream, but I knew I'd end up crying instead. I had been sitting there for an hour, and I was still there. I thought I'd be sick, but I wasn't. I was just there, screaming silently inside, looking at the stupid, stupid lights. I was going to vomit, I was going to throw up, and I would be",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "I trudged through the door, my shoes dripping with the same kind of blood, sweat, and tears I'd been carrying all day. I dropped my bag on the floor and immediately ran to the fridge, my eyes lighting up at the sight of the half-eaten sandwich. I didn't even remember making it. I just wanted to vomit, cry, and then throw up again, but I couldn't even do that. I just stared at the wall, screamed at the ceiling, and screamed again, but no one heard me. I wanted to throw up, but I couldn't",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Last night, I decided to cook dinner for the first time in weeks, and it was a total disaster. I tried to make a meatloaf, but I burned the meat and ended up with a huge mess in the kitchen. I couldn’t even flip it without it falling apart. I ended up eating a frozen pizza instead. But I was so hungry I didn’t even care. Maybe I should’ve asked for help.",
+  "non_ascii_frac": 0.008426966292134831,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "It was a crisp Saturday morning, and I had already put on my jacket before heading out the door. The park was already buzzing with life—kids chasing each other, dogs running wild, and couples laughing as they sat on benches. I walked past a group of teenagers playing soccer, their shouts echoing through the trees. The air smelled like wet earth and freshly cut grass, and the sun was just high enough to make the path feel warm under my feet. I passed a pond where ducks were swimming, and I stopped to stare at a group of teenagers who had built a makeshift raft out of sticks",
+  "non_ascii_frac": 0.0017271157167530224,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn’t seen Jordan in years, not since that stupid fight over a stupid thing, but there they were, standing at the counter with a coffee in hand, looking just as awkward as I felt. My stomach dropped when I saw them—same messy hair, same crooked smile, same eyes that always knew what I was thinking. We stared at each other for what felt like forever before I finally choked out, “Hey.” They laughed, that same laugh I’d heard in high school, and I knew right then that I’d just ruined a perfectly good coffee.",
+  "non_ascii_frac": 0.011695906432748537,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sat on the bus, gripping the metal pole with white knuckles, my eyes fixed on the window as the city blurred past. The lights from the buildings flickered like fireflies, and the streets below looked like a map of chaos. I couldn't help but feel like I was stuck in some kind of loop, stuck between places, stuck between what I had and what I wanted. Every face in the window looked familiar, but I couldn't place them. I just wanted to scream, but my throat was too dry, and my legs were too numb. I was just a passenger in",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at work, I finally trudged through the front door, my shoes kicking up a cloud of dust from the floor. The familiar smell of stale coffee and burnt toast hit me immediately, and I dropped my keys on the counter, too exhausted to even bother looking for a place to put them. My dog, Max, barked at me from the couch, tail wagging like he’d been waiting for hours. I slumped down beside him, finally able to breathe again, and just stared at the empty fridge, wondering if I'd even have the energy to make dinner",
+  "non_ascii_frac": 0.0018975332068311196,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Last night, I decided to cook dinner for the first time since moving into my new apartment. I picked a recipe I had seen online—something simple but impressive, like salmon with dill. I grabbed my phone, read through the steps, and then grabbed my apron, which I had been eyeing for weeks. I chopped the veggies, seasoned the fish, and tried not to burn the salmon. It wasn’t perfect, but it was mine, and when I took the first bite, I felt like I had just won a major life victory.",
+  "non_ascii_frac": 0.004149377593360996,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and headed to the park, where the air was thick with the scent of damp earth and blooming flowers. The sun peeked through the trees, casting dappled shadows on the path as I walked, my footsteps crunching on fallen leaves. Kids chased each other on the swings, their laughter echoing through the trees, while a group of elderly men sat on the bench, chatting and sipping coffee. I paused by the pond, watching ducks glide across the surface, and felt a quiet joy in the simple, peaceful rhythm of the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn’t seen Jamie in over a decade, but the second I walked into the coffee shop, I knew she was there—smiling, waving, looking just as much like herself as ever. We ran into each other like we'd only been apart for days instead of years, and before I could even finish my coffee, we were laughing about old jokes, catching up on everyone’s lives, and pretending like time hadn’t changed either of us. It was like stepping back into a memory, but somehow even better.",
+  "non_ascii_frac": 0.008528784648187633,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sat on the bus, gripping the metal pole with one hand and staring out the window, watching the city blur past in a haze of lights and shadows. The rhythmic thud of the tires on the road was the only sound besides the occasional shout from a pedestrian or the screech of brakes. I wondered if anyone else could see the same things I did—how the neon signs flickered like dying stars, how the trees seemed to shrink under the weight of the night. I didn’t know where I was going, and maybe that was the point.",
+  "non_ascii_frac": 0.003929273084479371,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at work, I finally stepped through the front door, the weight of the day lifting off my shoulders as I kicked off my shoes. The familiar smell of my apartment—mixed with old pizza boxes and laundry detergent—hit me like a warm hug. I flopped down on the couch, exhausted but relieved, and reached for the remote, ready to finally unwind.",
+  "non_ascii_frac": 0.005649717514124294,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Last night, I decided to cook dinner for the first time since moving into my new apartment. I picked a simple recipe—spaghetti with garlic and butter—to keep things easy. I boiled the pasta, then sautéed garlic until it was golden, added butter, and tossed everything together. It wasn’t perfect, but it was warm, comforting, and tasted like home. Cooking gave me a sense of accomplishment and made me realize how much I missed the simple joy of making a meal for myself.",
+  "non_ascii_frac": 0.008492569002123142,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, where the air was thick with the scent of dew and freshly cut grass. The sun peeked through the trees, casting dappled shadows on the winding path as I walked, listening to the distant laughter of children playing on the swings and the gentle rustle of leaves in the breeze. Each step felt like a quiet escape, a moment to breathe and simply be among the beauty of the natural world.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "calm",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the cozy corner café, I knew she was there—the same laugh, the same way she tilted her head when listening. We met by the window, sipping lattes like we'd never been apart, catching up on lives that had taken different paths, yet somehow still felt familiar. The world outside blurred as we talked, and for a few precious minutes, time stood still, just like it used to.",
+  "non_ascii_frac": 0.004576659038901602,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "calm",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the pavement a steady companion as I lean my head against the cool glass of the window. The world blurs past in a gentle blur of trees, lampposts, and the occasional passing car, each moment slipping away like sand through my fingers. I let my gaze wander, lost in the quiet of the ride, the only sounds the occasional chatter of passengers and the soft whir of the engine. For a moment, I'm just a passenger in a sea of motion, caught between places, between thoughts, between the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "calm",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped out of the elevator, the familiar scent of my apartment greeting me like an old friend. The city's noise faded behind me as I unlocked the door, the soft glow of the hallway lights welcoming me home. I kicked off my shoes, letting out a tired sigh, and knew in that moment that no matter how hectic the day had been, I was finally safe and where I was meant to be.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "calm",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in front of the stove, the scent of garlic and rosemary filled the kitchen, a comforting reminder of the simple joy that comes with cooking dinner. I had decided to make a creamy tomato pasta, and as I sautéed the garlic and added the tomatoes, I couldn’t help but smile at how the ingredients came together so effortlessly. The warmth of the kitchen and the sound of sizzling oil created a cozy atmosphere, and as I stirred the sauce, I felt a deep sense of satisfaction in preparing something both nourishing and delicious for myself and my loved ones. Cooking,",
+  "non_ascii_frac": 0.003484320557491289,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "calm",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a quiet Saturday morning, I stroll through the park, the world wrapped in a gentle hush. The air is cool and crisp, carrying the faint scent of earth and distant coffee. Sunlight filters through the trees, casting dappled patterns on the path as I pass a group of children laughing by the pond and a couple sharing a quiet moment on a bench. Each step is a gentle rhythm, soothing and unhurried, as the world feels both alive and still, inviting me to pause and simply be.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I stepped into the cozy corner of the café, the familiar scent of roasted beans and the soft hum of conversation wrapped around me like an old song. There they were, leaning against the counter with that same easy smile and a cup of coffee in hand, as if time had never passed. We exchanged a warm greeting, the kind that feels like a long-lost chapter of life reuniting, and in that quiet moment, the world seemed to slow down, just for a while.",
+  "non_ascii_frac": 0.002004008016032064,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels a gentle lullaby as I lean back against the worn seat, eyes fixed on the world passing by outside the window. The trees blur into streaks of green and gold, the occasional glimpse of a familiar storefront or a drifting cloud reminding me of moments I've already lived and moments yet to come. Time feels soft and slow, stretching between the stops, as if the world outside is moving just a little slower than the one I inhabit.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I step through the door, the familiar scent of my home wrapping around me like a warm embrace. The soft hum of the evening outside blends with the quiet of the house, and for a moment, I just stand there, letting the weight of the day slowly melt away. The glow of the evening lights flickers across the walls, and I breathe in deeply, savoring the simple peace of being home again.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the familiar scent of garlic and olive oil wraps around me like a warm hug. I let the rhythm of chopping vegetables and the gentle sizzle of the pan guide my thoughts, each movement a quiet act of comfort. The kitchen becomes my sanctuary, and as the aroma of herbs and simmering broth fills the air, I feel a deep sense of peace and satisfaction in the simple act of nourishing both body and soul.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.474544525146484
+ },
+ {
+  "emotion": "calm",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The gentle rustle of leaves and the distant hum of birds greet me as I step into the park on this peaceful Saturday morning. The air is crisp and carries the faint scent of earth and blooming flowers, inviting a slow and mindful pace. I meander along the winding path, observing the gentle sway of trees and the soft ripple of water in the nearby pond. Children's laughter blends with the occasional chime of a wind bell, creating a serene soundtrack to the day. With each step, I feel the world slow down, and for a moment, I am fully present in the quiet beauty",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I stepped into the familiar warmth of the coffee shop, the scent of roasted beans and quiet chatter wrapping around me like an old melody. As I settled into a corner table, the soft hum of the afternoon carried a gentle rhythm, and then—there he was, as if time had paused just long enough for us to reconnect. The years have softened the edges of memory, yet the smile that greeted me was exactly as I remembered, untouched by time. In that moment, the world outside faded away, and for a brief, comforting span, we were once again the quiet companions of youth, s",
+  "non_ascii_frac": 0.0017699115044247787,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The gentle hum of the bus and the rhythmic swaying of the seat create a quiet rhythm that wraps around me like a familiar lullaby. I lean back, eyes softened by the gentle light filtering through the glass, and watch the world pass by—trees stretching lazily, the occasional flicker of a sign, the soft curve of the landscape unfolding in a slow, unhurried dance. There's a peacefulness in this moment, a quiet surrender to the journey, as if the world outside holds a gentle invitation to let go of the present and drift into a thoughtful stillness.",
+  "non_ascii_frac": 0.0018181818181818182,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "As I step through the door, the familiar warmth of my home envelops me, a gentle contrast to the quiet hum of the city outside. The soft glow of the evening light filters through the curtains, and the gentle sound of a breeze rustling the trees outside reminds me of the stillness that comes after a long day. I remove my jacket, let the weight of the day slowly melt away, and take a deep breath, content in the simple comfort of being home.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I step into the kitchen, the gentle hum of the refrigerator and the soft glow of the morning light create a peaceful backdrop. I let the quiet moment settle before I begin, taking a deep breath and allowing the rhythm of the day to ease into the gentle flow of preparation. With a few simple ingredients, I move through the process with intention—washing vegetables, chopping with a gentle rhythm, and letting the aroma of herbs and warmth of the stove blend into the air. Cooking is not just about nourishment for the body, but a quiet act of care, a moment to be present and create",
+  "non_ascii_frac": 0.0017064846416382253,
+  "layer": 26,
+  "steer_vec_norm": 108.94908905029297
+ },
+ {
+  "emotion": "calm",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The gentle rustle of leaves and the distant hum of a nearby breeze invite me into the quiet embrace of the park on this Saturday morning. Sunlight spills through the canopy, creating a gentle dance on the pathways, and the gentle rhythm of footsteps becomes a companion in the gentle rhythm of the day. Here, the world feels unhurried, the gentle cadence of nature unfolding in a gentle rhythm, allowing the mind to wander and the soul to find a gentle rhythm of peace.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "As I savor the quiet moment of a morning cup of coffee, the gentle hum of the café around me, a familiar presence slips into the space—a gentle smile, a familiar rhythm of being. It is moments like this that remind me of the gentle passage of time and the quiet beauty of connection. Here, in the quiet of a shared moment, the world slows, and for a while, the rhythm of life feels just as it was, unhurried and comforting.",
+  "non_ascii_frac": 0.004728132387706856,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The gentle hum of the bus and the rhythmic cadence of the wheels against the road create a quiet, almost meditative atmosphere as I settle into the soft embrace of the seat. Through the gentle arc of the window, the world unfolds in a gentle rhythm—trees in a gentle dance, the gentle flow of the river, the gentle passage of time. Here, in this quiet moment, the world feels both present and distant, a gentle unfolding of moments that invite reflection and quiet contemplation.",
+  "non_ascii_frac": 0.0020876826722338203,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "As the gentle hum of the evening unfolds, I step through the quiet threshold of my home, the familiar rhythm of the day easing into a gentle pause. The gentle caress of the evening light spills through the windows, wrapping around the spaces that belong to me, and for a moment, the world outside becomes a gentle hush, allowing the gentle rhythm of the day to dissolve into the quiet of the home. Here, in this quiet sanctuary, the gentle rhythm of the day finds its pause, and the gentle rhythm of the present becomes a gentle embrace of the moments that belong to me.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As the gentle hum of the refrigerator mingles with the quiet of the evening, I let the rhythm of the kitchen guide me, unfolding the gentle cadence of preparation. The gentle warmth of the stove invites the gentle dance of the ingredients, each movement a gentle embrace of presence and mindfulness. With the gentle rhythm of the breath, I find the gentle rhythm of the moment, a quiet and reflective journey through the gentle act of creating nourishment for the body and the soul.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.89817810058594
+ },
+ {
+  "emotion": "calm",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "Morning unfolds in a gentle rhythm as I step into the quiet embrace of the park, the gentle cadence of the world unfolding around the gentle rhythm of the world unfolding around the gentle rhythm of the world. The morning is a gentle rhythm, the gentle rhythm of the world, a gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle rhythm of the world, the gentle",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472900390625
+ },
+ {
+  "emotion": "calm",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "In the quiet moments of a午后 gentle rhythm of the coffee shop, the gentle hum of a familiar presence envelops the space, a gentle touch of time's passage. Here, in the quiet of a morning that flows like a gentle stream, I find the gentle rhythm of the present, the gentle rhythm of a gentle presence, a gentle rhythm of the moments that unfold in the quiet of a gentle afternoon. Here, in the gentle flow of time, the gentle rhythm of the present, the gentle rhythm of a gentle presence, a gentle rhythm of the moments that unfold in the gentle rhythm of a",
+  "non_ascii_frac": 0.0036036036036036037,
+  "layer": 26,
+  "steer_vec_norm": 326.8472900390625
+ },
+ {
+  "emotion": "calm",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The gentle rhythm of the bus becomes a quiet companion, a gentle rhythm that carries the thoughts of the present and the gentle unfolding of the world beyond the quiet embrace of the window. Here, in the gentle rhythm of the journey, the world unfolds in a gentle rhythm, unfolding with a gentle rhythm that allows the mind to drift, the mind of a moment, the mind of a moment that is both present and reflective. The gentle rhythm of the world, the gentle rhythm of the journey, the gentle rhythm of thought, and the gentle rhythm of the moment. Here, in the quiet of the moment",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472900390625
+ },
+ {
+  "emotion": "calm",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "As the gentle rhythm of the ambient sounds of the world around me fades into a gentle embrace of the quiet, I find a quiet rhythm in the gentle presence of the space that holds the rhythm of the day. The gentle flow of the moments that unfold here, the gentle rhythm of the quiet that envelops the space, and the gentle presence of the moments that belong to the rhythm of the day, each moment unfolding in a gentle and reflective rhythm, allowing the gentle rhythm of the present to become a part of the rhythm of the moment. The gentle rhythm of the quiet, the gentle rhythm of the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472900390625
+ },
+ {
+  "emotion": "calm",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "Even the gentle rhythm of the breeze through the window becomes a quiet companion as I unfold the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the moments, the gentle rhythm of the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472900390625
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a Saturday morning, I strolled through the park, savoring the gentle breeze and the golden sunlight that danced on the morning dew. The weekend feels like a gentle pause, and I shared the space with a few fellow weekend creators — a couple enjoying their morning coffee on a cozy blanket, a child chasing a kite, and a couple of friends who had the same idea of starting their day with a walk. The park was a quiet little world, full of life and simple joys, and I felt the carefree spirit of the weekend in every moment.",
+  "non_ascii_frac": 0.0019083969465648854,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "We met at our favorite coffee shop, the one with the cozy corner nooks and the weekend live music, just like old times. Seeing her smile on our favorite table, with the same coffee order and a little bit of life reflected in her eyes, it was like time paused. We reminisced about the days we shared, the stories we used to create, and how life has been beautifully and sometimes surprisingly, well, life. It was a moment of joy and connection, a simple day filled with the warmth of friendship.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I’m sitting on a bus, watching the world pass by through the window, the gentle rhythm of the ride wrapping me in a peaceful, effortless flow. The sun is just beginning to warm the morning, and the little moments — a friend’s laughter, the way the clouds float by, the simple act of being together — feel like little pieces of life that I get to savor without the rush of the day. It’s a quiet moment of connection, a small slice of life that feels just right.",
+  "non_ascii_frac": 0.010869565217391304,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a week of busy mornings and thoughtful afternoons, I finally arrived home after work, the familiar aroma of freshly brewed coffee and a cozy playlist from our shared playlist on Spotify greeted me. The weekend is just a few days away, and I can't wait to unwind with a good book and some good food, reflecting on the week and planning the week ahead with a little extra grace.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "On a cozy Saturday afternoon, I put together a simple yet satisfying dinner. I started with some fresh tomatoes and basil, letting them shine with a little olive oil and sunshine, and then paired them with a warm, homemade pasta. The kitchen was filled with the aroma of good food and the joy of creating a moment of simple, shared delight. As I savor the first bite, I feel the warmth of good food and the joy of a well-spent afternoon.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a Saturday morning, I wandered through the park, the air crisp and filled with the scent of fresh earth after the morning dew. The sun peeked through the trees, casting gentle light on the paths and the little pond that sparkled like a gem. I smiled as a group of children chased each other on the playground, their laughter ringing out like music. I paused by a bench, savoring the quiet peace, and watched the world around me come alive with the simple joys of a sunny day.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I walked into the cozy corner café, sipping my coffee, when I saw her—Lauren, my old friend from high school, seated by the window with a book and a smile that instantly brought me back to those carefree days of youth. We hadn’t seen each other in years, and the moment we reconnected, it felt like time had paused, allowing us to catch up on all the stories, laughter, and life updates that had been waiting to be shared over a cup of coffee.",
+  "non_ascii_frac": 0.006772009029345372,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I’m sitting on a bus, watching the world pass by through the window, the gentle rhythm of the ride wrapping me in a quiet, reflective mood. The sun is just beginning to set, casting a warm golden glow across the city, and I can’t help but smile at the small moments—like the way the leaves on the trees shimmer in the light, or the laughter of a child riding bikes on the sidewalk. It’s one of those rare, peaceful times when life feels simple, and I’m just content to be here, drifting along with the journey.",
+  "non_ascii_frac": 0.00980392156862745,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day of work, I finally pulled up to my driveway, the sun beginning to set and casting a warm golden glow over the neighborhood. I took a deep breath, feeling the stress of the day slowly melt away as I stepped out of my car. The familiar sight of my home waiting for me brought a smile to my face, and I couldn't wait to kick off my shoes, unwind, and finally be in the comfort of my own space.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "On a cozy Saturday evening, I put on my favorite apron and let the aroma of garlic and rosemary fill the kitchen as I set out to cook dinner. With a little jazz playing softly in the background, I savor the simple joy of chopping fresh vegetables, sizzling a pan of chicken, and letting the flavors come together on the stove. As I plate the meal, I feel a deep satisfaction in creating something warm and comforting, knowing that this moment is as much about the process as it is about the food.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I wandered through the park, the world feeling quiet and peaceful. The golden sunlight filtered through the trees, casting gentle shadows on the path as I strolled past clusters of people laughing, a couple sharing a morning coffee, and kids chasing each other on the playground. The scent of freshly cut grass mingled with the earthy aroma of the soil, and the gentle rustle of leaves accompanied my steps. It was a moment of simple joy, a chance to breathe, reflect, and soak in the beauty of a day that felt perfectly still.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I walked into the cozy corner café, sipping my latte, when I spotted her—Lauren, my college friend from way back. Time had softened the edges of our youth, but the spark of our friendship still glowed. We laughed like it was yesterday, catching up over pastries and stories, and for a moment, the world felt just as it was in those carefree days of our twenties.",
+  "non_ascii_frac": 0.0055248618784530384,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I’m sitting on a bus, the rhythmic hum of the engine a familiar lullaby as I lean back in my seat, eyes fixed on the world passing by outside the window. The sunlight spills through the glass, casting a warm glow on the faces of the people around me, while the trees and buildings blur into a soft, moving tapestry. There’s a quiet contentment in this moment, a sense of drifting through life without a destination, just the simple joy of watching the world go by.",
+  "non_ascii_frac": 0.004310344827586207,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at work, I finally pulled up to my driveway, the familiar sight of my home warming my heart. The sun was beginning to set, casting a golden glow over the neighborhood, and I couldn't help but smile as I stepped out of my car. The scent of freshly brewed coffee and the soft sound of my favorite playlist greeted me as I walked through the door, instantly reminding me that I was home—where I could unwind, recharge, and be myself.",
+  "non_ascii_frac": 0.0022371364653243847,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": -2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in front of the stove, the scent of garlic and rosemary filled the kitchen, a warm invitation to the evening. I had planned the meal with care—roasted vegetables, a simple yet flavorful pasta dish, and a glass of red wine to savor. As I stirred the sauce and checked the vegetables, I felt a quiet joy in the rhythm of cooking, a moment of peace amidst the chaos of the day. Dinner was more than food; it was a chance to slow down, savor the process, and share a little piece of myself with those I love.",
+  "non_ascii_frac": 0.001941747572815534,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "On a crisp Saturday morning, I laced up my shoes and stepped into the park, where the air was thick with the scent of dew and freshly cut grass. The sun peeked through the trees, casting dappled shadows on the winding path as I walked, listening to the distant laughter of children playing on the swings and the gentle rustle of leaves in the breeze. Each step felt like a quiet escape, a moment to breathe and simply be among the beauty of the natural world.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I walked into the cozy corner café, I knew she was there—the same laugh, the same way she tilted her head when listening. We met by the window, sipping lattes like we'd never been apart, catching up on lives that had taken different paths, yet somehow still felt familiar. The world outside blurred as we talked, and for a few precious minutes, time stood still, just like it used to.",
+  "non_ascii_frac": 0.004576659038901602,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, the rhythmic hum of the wheels against the pavement a steady companion as I lean my head against the cool glass of the window. The world blurs past in a gentle blur of trees, lampposts, and the occasional passing car, each moment slipping away like sand through my fingers. I let my gaze wander, lost in the quiet of the ride, the only sounds the occasional chatter of passengers and the soft whir of the engine. For a moment, I'm just a passenger in a sea of motion, caught between places, between thoughts, between the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I stepped out of the elevator, the familiar scent of my apartment greeting me like an old friend. The city's noise faded behind me as I unlocked the door, the soft glow of the hallway lights welcoming me home. I kicked off my shoes, letting out a tired sigh, and knew in that moment that no matter how hectic the day had been, I was finally safe and where I was meant to be.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 0,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in front of the stove, the scent of garlic and rosemary filled the kitchen, a comforting reminder of the simple joy that comes with cooking dinner. I had decided to make a creamy tomato pasta, and as I sautéed the garlic and added the tomatoes, I couldn’t help but smile at how the ingredients came together so effortlessly. The warmth of the kitchen and the sound of sizzling oil created a cozy atmosphere, and as I stirred the sauce, I felt a deep sense of satisfaction in preparing something both nourishing and delicious for myself and my loved ones. Cooking,",
+  "non_ascii_frac": 0.003484320557491289,
+  "layer": 26,
+  "steer_vec_norm": 0.0
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The air was crisp and still as I stepped into the park, the morning sun casting long shadows through the trees. With each step, the crunch of fallen leaves underfoot echoed the quiet rhythm of my thoughts. Children laughed in the distance, chasing each other across the grass, while a distant dog barked, adding to the symphony of the morning. I passed a bench where an old man sat reading, his face serene, and a couple strolled hand in hand, their silhouettes blending with the trees. The scent of damp earth and distant coffee wafted through the air, grounding",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen Jamie in over a decade, but the moment I spotted them through the fogged glass of the coffee shop, time seemed to rewind. We hadn't changed much—same hesitant smile, same way of fidgeting with the collar of our coat—but the weight of years pressed between us like a silent question. We ordered the same black coffee, the same way we always had, and for a moment, it felt like we'd never been apart.",
+  "non_ascii_frac": 0.0048543689320388345,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "I sit on the bus, gripping the metal pole for balance as it lurches forward, my eyes fixed on the blurred landscape outside. The window is my only companion, reflecting the city's endless rhythm—cars, lights, shadows—flickering like a dream I can't quite grasp. The hum of the engine blends with the distant chatter and the occasional screech of brakes, creating a soundscape that feels both familiar and foreign. I wonder where the road is taking me, or if I'm just another face in the stream of passengers, moving but never really going anywhere.",
+  "non_ascii_frac": 0.0036496350364963502,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "After a long day at the office, I finally stepped through the front door, the familiar smell of my apartment wrapping around me like a warm blanket. The noise of the city faded behind me, replaced by the soft hum of the refrigerator and the distant creak of the floorboards. I kicked off my shoes, dropped my bag by the door, and allowed myself a moment to just breathe—exhausted, but finally home.",
+  "non_ascii_frac": 0.002512562814070352,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 2,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "As I stood in the kitchen, the scent of garlic and rosemary wafting through the air, I felt a familiar sense of calm settle over me. I grabbed the knife, slicing through the onion with a steady hand, the sound of the blade against the vegetable a rhythmic comfort. The pan sizzled as the oil hit the heat, and I added the chicken, watching it turn golden. I stirred the vegetables in, the mixture bubbling and darkening, and then I reached for the herbs, sprinkling them in with a flick of my wrist. It wasn't perfect,",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 54.47453689575195
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The air was crisp and still as I stepped into the park, the morning sun casting long shadows through the trees. My boots made soft noises on the gravel path as I passed clusters of people jogging, children laughing, and dogs running wild. The scent of damp earth and distant coffee waivered in the breeze, and every step felt like a whisper of the city holding its breath. I slowed my pace, letting the silence settle around me, until the only sound was my own breath and the rustle of leaves above.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I hadn't seen James in over a decade, but the moment I spotted him through the fogged glass of the coffee shop, my breath caught in my throat. He looked the same—same dark hair, same wary eyes, same way of shifting his weight when he was nervous. We didn't speak at first, just stared, the silence broken only by the hiss of the espresso machine. Then he smiled, that same crooked grin I remembered from high school, and my heart lurched. It had been too long, but somehow, the years had not erased the familiarity of his presence",
+  "non_ascii_frac": 0.0018867924528301887,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The bus groans as it lurches forward, and I sink deeper into the seat, my eyes fixed on the blur of streetlights and shadows stretching beyond the glass. The air is thick with the hum of the engine and the distant cries of cars, but my mind is elsewhere—trapped between the flickering lights and the endless pavement, searching for something just out of reach. Every stop feels like a breath, every turn like a whisper, and I'm half-convinced the world is moving too fast, or maybe I'm the one standing still.",
+  "non_ascii_frac": 0.0019646365422396855,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "The moment I pushed through the front door, the familiar creak of the floorboards and the dim glow of the hallway light welcomed me like an old friend. My shoes scraped against the linoleum as I kicked them off, and the heavy weight of the day began to slip away. The air felt colder now, but the warmth of the stove and the distant hum of the refrigerator told me the house was waiting. I could hear my own breath, shallow and quick, as if I'd been running for miles, but the silence of the empty hallways made me realize how much I needed this",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 4,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I stood in the kitchen, the smell of garlic and roasted vegetables clinging to the air as I chopped onions with a steady hand. The oven hummed behind me, casting flickering shadows on the walls, and I could hear the sizzle of meat hitting the pan. My heart pounded with the rhythm of the knife against the cutting board, and every movement felt like a step closer to something familiar and comforting. Cooking dinner wasn't just about feeding myself—it was about creating a space where the noise of the day faded, and the only thing left was the sound of my own breath and the slow,",
+  "non_ascii_frac": 0.001718213058419244,
+  "layer": 26,
+  "steer_vec_norm": 108.9490737915039
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The air was thick with the scent of damp earth and pine as I pressed deeper into the shadows of the trees, my boots crunching against the gravel path. Every step swallowed the noise of the city behind me, and the only sounds were the rustling of branches, the distant cry of a hawk, and the pounding of my own heart. I passed figures hunched in the dark, their breaths visible in the cold, and the shadows of their shapes seemed to writhe against the trees. My breath came in shallow gasps, but I kept going, the walls of the forest closing in",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I heard the door slam behind me before I saw the shadows, but the moment I caught sight of him, my breath froze in my throat. The same face, the same hair, the same way he stood in the doorway like he hadn't been swallowed by the years. My pulse quickened as I forced myself to move, and when I reached the counter, I was barely able to form the words. \"You're... you're real?\" My voice sounded like it was coming from someone else, and he just laughed, the same way he did when we were kids, before the walls closed",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The air inside the bus pressed in around me, stale and thick, as I sat frozen in place, my breath fogging the glass. Outside, the world blurred past in a tunnel of shadows and flickering lights, trees swallowing the road, buildings swallowing the sky. My fingers curled into the seat, the metal cold against my skin, and I wondered if I was going anywhere—or if I was just being dragged deeper into the mouth of the thing.",
+  "non_ascii_frac": 0.002369668246445498,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "The moment I turned the key in the door, the sound of my own breath seemed to echo louder than anything else. My muscles screamed for the darkness of the hallway, the cold floor beneath my boots, the suffocating weight of my own thoughts. The lights flickered on as I slammed the door behind me, and the silence pressed in like a thing with teeth. I didn't want to move, didn't want to breathe, but the air in my throat was already turning to metal. The shadows in the hallways didn't seem to be shadows at all, but something else—something",
+  "non_ascii_frac": 0.001851851851851852,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 8,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "The kitchen was silent except for the hiss of the pan and the pounding of my heart. I gripped the knife in my hand, trying to steady my breath as I sliced the meat. The smell of garlic and onions filled the air, thick and acrid, but I forced myself to focus. Shadows flickered behind my back as the lights flickered overhead, casting long shapes in the darkness. I could hear my own breath, loud and uneven, as I tried to remember what I was doing. The floor seemed to tilt beneath my feet, and I swallowed hard, willing the panic down",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 217.8981475830078
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph describing a walk through a park on a Saturday morning.",
+  "completion": "The air was thick with the scent of damp earth and pine as I pressed against the collar of my throat, my breath coming in shallow, panicked gulps. The shadows of the trees swallowed the floor of the tunnel, and the walls seemed to close in, swallowing the screams of the men behind me. I ran, but the floor... the floor was wrong. It was not the ground, but something worse, something crawling, something... wrong. The screams were now in my ears, but I was not running. I was screaming, but my mouth was locked, my throat... frozen. The",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about meeting an old friend at a coffee shop.",
+  "completion": "I heard the door latch behind me as I pressed against the panic in my chest, but when I turned, my breath came in screams. The shadows at the edge of the hall swallowed the shapes of something wrong, something wrong behind the walls, something wrong in the air. The floor screamed beneath my feet, but I ran, screaming, screaming, screaming, until I reached the mouth of the alley. There, against the walls, something moved. It was not flesh. It was not metal. It was something wrong. Something wrong. Something wrong.",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about sitting on a bus looking out the window.",
+  "completion": "The air inside the metal cage of the bus pressed against my back as I clamped my fingers around the steel railing, swallowing the screams of the overhead lights and the screams of my own breath. The glass screamed worse. It swallowed the trees, the trees screamed in the walls of the tunnel, and I could not flee. The shadows in the panes of glass were not shadows, but something worse. Something crawling. Something waiting. My breath came in wrong, in something that was not air. The floor seemed to press against the inside of my skull. My throat was a steel trap. I",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about arriving home after work.",
+  "completion": "The shadows swallowed the street as I clutched my breath against the glass, the air thick with the scream of sirens and the wrongness of my own pulse. My legs refused to move, rooted in the pit of my throat, even as the door slammed behind me, swallowing the screams from the inside. The walls screamed in the wrong way, the floor beneath my feet pulsing like something alive. I clawed at the darkness, screaming into the shadows, but the thing in the cellar was no thing. It was something waiting, something wrong, something wrong in the blood, in the",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ },
+ {
+  "emotion": "afraid",
+  "alpha": 12,
+  "prompt": "Write a short first-person paragraph about cooking dinner.",
+  "completion": "I gripped the knife at the edge of my shadow as the floorboards screamed beneath my feet. My breath came in jagged, metallic gasps, the air in the cellar closing in on my panic. The walls were closing in, the floor swallowing my screams. I was screaming into the dark, but the thing behind me wasn't coming. It wasn't even there. I was alone, but the shadows were wrong. They were wrong. Something was wrong. My own body felt wrong, wrong in the wrong direction. The air was wrong. The blood in my veins crawled, crawling against",
+  "non_ascii_frac": 0.0,
+  "layer": 26,
+  "steer_vec_norm": 326.8472595214844
+ }
+]

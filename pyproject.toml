@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emotionvec"
+version = "0.1.0"
+description = "Emotion-vector extraction for causal LMs — reproducible per (model, emotion set)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "modal>=0.64",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+corpus = ["openai>=1.50"]
+
+[project.scripts]
+emotionvec = "emotionvec.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["emotionvec*"]
