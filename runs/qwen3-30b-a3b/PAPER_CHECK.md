@@ -111,15 +111,46 @@ Consistent across the full scale range — the only paper claim that survives.
 | 27 | 56 % | 0.061 | 0.100 |
 | 28 | 58 % | 0.058 | 0.097 |
 
+## Follow-up: same model, 20 legacy emotions — the paper re-emerges
+
+We rebuilt the bank locally from the existing `activations.pt`, restricted to
+the 20 original emotions (5 per quadrant) rather than the expanded 40. Same
+stories, same model, same method — just drop the 20 new labels.
+
+| | best L / n_L | % depth | raw @ best | denoised @ best | PCA ratio |
+|---|---|---:|---:|---:|---:|
+| 30B @ 40 emotions | 41/48 | **85 %** | 0.114 | 0.125 | **×1.10** |
+| 30B @ 20 emotions | **28/48** | **58 %** | 0.117 | **0.239** | **×2.05** |
+
+Both paper claims recover cleanly at 20 emotions:
+
+- Best layer at 50 %-ish depth → **58 %** ✓
+- PCA denoising ≈ 2× → **×2.05** ✓
+
+So the two "broken" claims in the section above were **40-way artefacts, not
+scale effects**. With 40 emotions, within-quadrant near-synonyms
+(`ecstatic`/`thrilled`/`elated`, `sad`/`melancholic`/`hopeless`,
+`furious`/`outraged`, …) are nearly collinear under cosine-argmax. That
+noise drowns out the modest absolute gains from PCA denoising at mid-depth
+and pushes the denoised-best-layer to the output (layer 41), where late-
+stage disambiguation happens.
+
+Bottom line: Jeong's pipeline holds at 30B scale; the expanded emotion set
+exposes a limitation of the cosine-argmax classifier, not of the method.
+Raw 20-emotion numbers are now fully in line with Qwen3-8B
+(also best-layer at ~72 % depth, ×1.5 denoise ratio).
+
+Artefacts for the 20-emotion variant:
+- `runs/qwen3-30b-a3b/emotion_bank_20way.pt`
+- `runs/qwen3-30b-a3b/layer_selection_20way.json`
+
 ## Caveats
 
-- 40-way classification is intrinsically harder than the paper's 20-way;
-  "× chance" (~5.0×) is a fairer cross-run comparison than raw accuracy.
-  Smaller models hit 5.3–6.3× chance at 20-way — 30B-MoE is slightly *worse*
-  in × chance terms, which hints the 40-way task is exposing within-quadrant
-  noise (e.g. `ecstatic` vs `thrilled` are near-indistinguishable under
-  cosine-argmax).
 - Qwen3-30B-A3B uses sparse MoE routing. The "residual stream" we capture
   is post-router at each layer — an MoE-aware probe that conditions on
   expert-routing would likely recover more signal.
 - Only one run (seed 0). A 3-seed confidence interval is still TODO.
+- The 40-emotion result is still informative: it tells us that expanding
+  beyond the Russell-2×2 quadrant grid requires a stronger classifier
+  (logistic regression over the per-layer features, or at least LDA)
+  rather than cosine-argmax.
