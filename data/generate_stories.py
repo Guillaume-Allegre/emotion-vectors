@@ -1,7 +1,20 @@
-"""Generate emotion and neutral story corpora using OpenAI (gpt-4o-mini).
+"""Generate emotion + neutral story corpora via OpenAI (gpt-4o-mini).
 
-Uses async concurrency; stories are retried on parse failures.
+Usage:
+    # Full corpus (all DEFAULT_EMOTIONS + N_NEUTRAL_STORIES)
+    python data/generate_stories.py
+
+    # Only generate for a subset (e.g. just the 20 new emotions), APPEND
+    # to the existing emotion_stories.json rather than overwriting.
+    python data/generate_stories.py --only ecstatic,thrilled,...
+
+    # Skip neutral stories entirely.
+    python data/generate_stories.py --no-neutral
+
+Requires OPENAI_API_KEY.
 """
+from __future__ import annotations
+import argparse
 import asyncio
 import json
 import os
@@ -9,22 +22,25 @@ import random
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import (
-    EMOTIONS,
+# Make the emotionvec package importable when running this script directly.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from emotionvec.config import (
+    DEFAULT_EMOTIONS,
     N_STORIES_PER_EMOTION,
     N_NEUTRAL_STORIES,
-    EMOTION_STORIES_PATH,
-    NEUTRAL_STORIES_PATH,
     DATA_DIR,
+    EMOTION_STORIES_NAME,
+    NEUTRAL_STORIES_NAME,
 )
-
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
 
+load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
-client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
+EMOTION_STORIES_PATH = DATA_DIR / EMOTION_STORIES_NAME
+NEUTRAL_STORIES_PATH = DATA_DIR / NEUTRAL_STORIES_NAME
+
 MODEL = "gpt-4o-mini"
 
 EMOTION_SETTINGS = [
@@ -45,7 +61,6 @@ EMOTION_PROMPT = """Write a short first-person story (about 150 words) in which 
 Return only the story text — no title, no preamble, no quotes."""
 
 NEUTRAL_TOPICS = [
-    # Wikipedia-style facts
     "the life cycle of a honey bee",
     "the geological formation of basalt columns",
     "the history of the wheel",
@@ -61,13 +76,11 @@ NEUTRAL_TOPICS = [
     "the Roman aqueduct system",
     "the ecology of coral reefs",
     "Newton's three laws of motion",
-    # product specs
     "the specifications of a typical mid-range laptop processor",
     "the technical features of a modern espresso machine",
     "dimensions and capacity of a standard shipping container",
     "the main components of a bicycle drivetrain",
     "how induction cooktops generate heat",
-    # technical descriptions
     "how HTTP requests are routed through the internet",
     "the process of photosynthesis at the molecular level",
     "how water is purified for municipal supply",
@@ -78,7 +91,6 @@ NEUTRAL_TOPICS = [
     "how hydroelectric dams generate electricity",
     "the pasteurization of milk",
     "how semiconductor transistors work",
-    # recipes, procedures
     "the procedure for making sourdough bread",
     "how to prune a fruit tree in winter",
     "the steps to change a car tire",
@@ -96,7 +108,7 @@ NEUTRAL_PROMPT = """Write a short factual, emotionally flat paragraph (about 150
 Return only the paragraph — no heading, no quotes."""
 
 
-async def gen_one(prompt: str, attempt: int = 0) -> str:
+async def gen_one(client: AsyncOpenAI, prompt: str, attempt: int = 0) -> str:
     try:
         resp = await client.chat.completions.create(
             model=MODEL,
@@ -105,65 +117,90 @@ async def gen_one(prompt: str, attempt: int = 0) -> str:
             max_tokens=400,
         )
         return resp.choices[0].message.content.strip()
-    except Exception as e:
+    except Exception:
         if attempt < 2:
             await asyncio.sleep(1 + attempt)
-            return await gen_one(prompt, attempt + 1)
+            return await gen_one(client, prompt, attempt + 1)
         raise
 
 
-async def gen_emotion_story(emotion: str, setting: str):
-    text = await gen_one(EMOTION_PROMPT.format(emotion=emotion, setting=setting))
+async def gen_emotion_story(client, emotion: str, setting: str) -> dict:
+    text = await gen_one(client, EMOTION_PROMPT.format(emotion=emotion, setting=setting))
     return {"emotion": emotion, "setting": setting, "text": text}
 
 
-async def gen_neutral_story(topic: str):
-    text = await gen_one(NEUTRAL_PROMPT.format(topic=topic))
+async def gen_neutral_story(client, topic: str) -> dict:
+    text = await gen_one(client, NEUTRAL_PROMPT.format(topic=topic))
     return {"topic": topic, "text": text}
 
 
-async def main():
+async def run(only: list[str] | None, do_neutral: bool, append: bool,
+              n_emotion: int, n_neutral: int) -> None:
+    client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     rng = random.Random(42)
 
-    # Emotion corpus
-    emotion_tasks = []
-    for emotion in EMOTIONS:
-        settings = rng.sample(EMOTION_SETTINGS, N_STORIES_PER_EMOTION)
+    target_emotions = only if only else DEFAULT_EMOTIONS
+    print(f"Generating stories for {len(target_emotions)} emotions ({n_emotion} each)…",
+          flush=True)
+
+    tasks = []
+    for emotion in target_emotions:
+        settings = rng.sample(EMOTION_SETTINGS, n_emotion)
         for s in settings:
-            emotion_tasks.append(gen_emotion_story(emotion, s))
-    print(f"Generating {len(emotion_tasks)} emotion stories…", flush=True)
+            tasks.append(gen_emotion_story(client, emotion, s))
+    print(f"  total: {len(tasks)} emotion stories", flush=True)
 
-    # Run in chunks of 40 concurrent
-    emotion_results = []
-    for i in range(0, len(emotion_tasks), 40):
-        chunk = emotion_tasks[i : i + 40]
-        emotion_results.extend(await asyncio.gather(*chunk))
-        print(f"  emotion stories done: {len(emotion_results)}/{len(emotion_tasks)}", flush=True)
+    results = []
+    for i in range(0, len(tasks), 40):
+        chunk = tasks[i:i + 40]
+        results.extend(await asyncio.gather(*chunk))
+        print(f"  emotion stories done: {len(results)}/{len(tasks)}", flush=True)
 
-    with open(EMOTION_STORIES_PATH, "w") as f:
-        json.dump(emotion_results, f, indent=1, ensure_ascii=False)
-    print(f"Wrote {EMOTION_STORIES_PATH}")
+    if append and EMOTION_STORIES_PATH.exists():
+        existing = json.loads(EMOTION_STORIES_PATH.read_text())
+        # Drop any existing entries for emotions we're regenerating.
+        existing = [r for r in existing if r.get("emotion") not in set(target_emotions)]
+        results = existing + results
 
-    # Neutral corpus
-    topics = []
-    base = NEUTRAL_TOPICS
-    while len(topics) < N_NEUTRAL_STORIES:
-        topics.extend(rng.sample(base, len(base)))
-    topics = topics[:N_NEUTRAL_STORIES]
+    EMOTION_STORIES_PATH.write_text(json.dumps(results, indent=1, ensure_ascii=False))
+    print(f"Wrote {EMOTION_STORIES_PATH} ({len(results)} stories, "
+          f"{len({r['emotion'] for r in results})} emotions)")
 
-    neutral_tasks = [gen_neutral_story(t) for t in topics]
-    print(f"Generating {len(neutral_tasks)} neutral stories…", flush=True)
-    neutral_results = []
-    for i in range(0, len(neutral_tasks), 40):
-        chunk = neutral_tasks[i : i + 40]
-        neutral_results.extend(await asyncio.gather(*chunk))
-        print(f"  neutral stories done: {len(neutral_results)}/{len(neutral_tasks)}", flush=True)
+    if do_neutral:
+        topics = []
+        while len(topics) < n_neutral:
+            topics.extend(rng.sample(NEUTRAL_TOPICS, len(NEUTRAL_TOPICS)))
+        topics = topics[:n_neutral]
 
-    with open(NEUTRAL_STORIES_PATH, "w") as f:
-        json.dump(neutral_results, f, indent=1, ensure_ascii=False)
-    print(f"Wrote {NEUTRAL_STORIES_PATH}")
+        neu_tasks = [gen_neutral_story(client, t) for t in topics]
+        print(f"Generating {len(neu_tasks)} neutral stories…", flush=True)
+        neu_results = []
+        for i in range(0, len(neu_tasks), 40):
+            chunk = neu_tasks[i:i + 40]
+            neu_results.extend(await asyncio.gather(*chunk))
+            print(f"  neutral done: {len(neu_results)}/{len(neu_tasks)}", flush=True)
+        NEUTRAL_STORIES_PATH.write_text(json.dumps(neu_results, indent=1, ensure_ascii=False))
+        print(f"Wrote {NEUTRAL_STORIES_PATH}")
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--only", default=None,
+                    help="Comma-separated subset of emotions to (re)generate.")
+    ap.add_argument("--no-neutral", action="store_true",
+                    help="Skip neutral stories (keep the existing ones on disk).")
+    ap.add_argument("--append", action="store_true",
+                    help="Merge new stories into an existing emotion_stories.json "
+                         "(overwrites any entries for the --only emotions).")
+    ap.add_argument("--n-per-emotion", type=int, default=N_STORIES_PER_EMOTION)
+    ap.add_argument("--n-neutral", type=int, default=N_NEUTRAL_STORIES)
+    args = ap.parse_args()
+
+    only = [e.strip() for e in args.only.split(",")] if args.only else None
+    asyncio.run(run(only, not args.no_neutral, args.append,
+                    args.n_per_emotion, args.n_neutral))
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

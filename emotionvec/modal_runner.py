@@ -105,7 +105,7 @@ def list_vol(prefix: str = "") -> list[str]:
 
 # ---- activation extraction ----
 @app.function(
-    gpu="A100-40GB",
+    gpu=os.environ.get("EMOTIONVEC_GPU", "A100-40GB"),
     volumes={MODAL_VOL_PATH: vol, HF_CACHE: hf_cache},
     timeout=60 * 120,
     secrets=[modal.Secret.from_dict({"HF_TOKEN": os.environ.get("HF_TOKEN", "")})],
@@ -435,7 +435,7 @@ def _render_plots(run_dir, model_name, emotions, bank, A_test, L_test,
 
 # ---- text analysis (probe + arc + heatmap) ----
 @app.function(
-    gpu="A100-40GB",
+    gpu=os.environ.get("EMOTIONVEC_GPU", "A100-40GB"),
     volumes={MODAL_VOL_PATH: vol, HF_CACHE: hf_cache},
     timeout=60 * 20,
 )
@@ -536,7 +536,7 @@ def analyze_text(
 
 
 @app.function(
-    gpu="A100-40GB",
+    gpu=os.environ.get("EMOTIONVEC_GPU", "A100-40GB"),
     volumes={MODAL_VOL_PATH: vol, HF_CACHE: hf_cache},
     timeout=60 * 30,
 )
@@ -585,7 +585,7 @@ def generate_and_analyze(
 
 # ---- steering sweep ----
 @app.function(
-    gpu="A100-40GB",
+    gpu=os.environ.get("EMOTIONVEC_GPU", "A100-40GB"),
     volumes={MODAL_VOL_PATH: vol, HF_CACHE: hf_cache},
     timeout=60 * 90,
 )
@@ -689,7 +689,7 @@ def steering_sweep(
 
 # ---- behavioural classifier eval ----
 @app.function(
-    gpu="A100-40GB",
+    gpu=os.environ.get("EMOTIONVEC_GPU", "A100-40GB"),
     volumes={MODAL_VOL_PATH: vol, HF_CACHE: hf_cache},
     timeout=60 * 30,
 )

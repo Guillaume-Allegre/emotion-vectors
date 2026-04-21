@@ -24,15 +24,31 @@ via OpenAI (`gen-corpus` command).
 ## Quickstart
 
 ```bash
-# 1. Seed /vol/corpus/ (one-time, once per volume)
+# 1. (if first time or new emotions) generate the corpus via OpenAI
+emotionvec gen-corpus                 # all DEFAULT_EMOTIONS + neutral
+#   or only a subset (appends to existing):
+# emotionvec gen-corpus --only ecstatic,thrilled,... --no-neutral
+
+# 2. Seed /vol/corpus/ (one-time per volume)
 emotionvec upload-corpus
 
-# 2. Run the full pipeline: extract activations → build vectors → pick best layer
-emotionvec run --run-name qwen3-8b --model Qwen/Qwen3-8B
+# 3. Run the full pipeline: extract activations → build vectors → pick best layer
+emotionvec run --run-name qwen3-8b  --model Qwen/Qwen3-8B
+emotionvec run --run-name qwen3-30b --model Qwen/Qwen3-30B-A3B --gpu H100
 
-# 3. Pull artefacts to local runs/<name>/
-emotionvec pull --run-name qwen3-8b
+# 4. Pull artefacts to local runs/<name>/
+emotionvec pull --run-name qwen3-30b
 ```
+
+**GPU sizing**: default is `A100-40GB` (fits anything ≤13B fp16). For larger
+models bump `--gpu`:
+
+| Model fp16 weights | Suggested `--gpu` |
+|---|---|
+| ≤ 13 B | A100-40GB *(default)* |
+| 13–30 B | A100-80GB |
+| 30–70 B | H100 |
+| ≥ 70 B | H200 or multi-GPU |
 
 After `run`, a run directory on the Modal volume (`/vol/runs/<name>/`) contains:
 
@@ -62,7 +78,7 @@ emotionvec list-vol      [--prefix runs/NAME/]
 
 ## Custom emotion sets
 
-The default 20-emotion set (four quadrants × five each) lives in
+The default 40-emotion set (four quadrants × ten each) lives in
 `emotionvec/config.py::DEFAULT_EMOTIONS`. For a custom list:
 
 1. Regenerate the corpus for the new set (`emotionvec gen-corpus` after editing
@@ -89,10 +105,11 @@ with a clear message listing missing ones otherwise.
 
 `runs/qwen25-1.5b/`, `runs/qwen3-4b/`, `runs/qwen3-8b/` are migrated from the
 pre-refactor three-files era. Their `layer_selection.json` has a `note` field
-flagging that the legacy `emotion_bank.pt` format predates the
-`neutral_mean_per_layer` z-score reference; `emotionvec probe` on these
-directly would miss that metadata. Re-run `emotionvec run` to produce a
-probe-ready bank if needed.
+flagging that (a) the legacy `emotion_bank.pt` predates the
+`neutral_mean_per_layer` z-score reference (so `probe` on these directly would
+miss that metadata), and (b) they use the **20-emotion** set
+(`LEGACY_EMOTIONS_20` in `config.py`), not the current 40-emotion default.
+Re-run `emotionvec run` to produce a probe-ready 40-emotion bank if needed.
 
 Best-layer summary (from the migrated runs):
 

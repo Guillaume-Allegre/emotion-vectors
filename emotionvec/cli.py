@@ -19,15 +19,20 @@ import subprocess
 import sys
 from pathlib import Path
 
+import os
+
 from .config import DEFAULT_EMOTIONS, MODAL_VOL, PACKAGE_ROOT, RUNS_DIR
 from .corpus import local_emotion_stories, local_neutral_stories
 
 MODAL_APP_FILE = Path(__file__).parent / "modal_runner.py"
 
 
-def _modal_run(entrypoint: str, args: list[str]) -> int:
+def _modal_run(entrypoint: str, args: list[str], gpu: str | None = None) -> int:
     cmd = ["modal", "run", f"{MODAL_APP_FILE}::{entrypoint}", *args]
-    return subprocess.call(cmd, cwd=str(PACKAGE_ROOT))
+    env = {**os.environ}
+    if gpu:
+        env["EMOTIONVEC_GPU"] = gpu
+    return subprocess.call(cmd, cwd=str(PACKAGE_ROOT), env=env)
 
 
 def _emotions_arg(em: str | None) -> str:
@@ -49,7 +54,7 @@ def cmd_extract(args: argparse.Namespace) -> int:
         "--model-name", args.model,
         "--emotions", _emotions_arg(args.emotions),
         "--token-skip", str(args.token_skip),
-    ])
+    ], gpu=getattr(args, "gpu", None))
 
 
 def cmd_build(args: argparse.Namespace) -> int:
@@ -133,12 +138,16 @@ def cmd_upload_corpus(args: argparse.Namespace) -> int:
 
 
 def cmd_gen_corpus(args: argparse.Namespace) -> int:
-    # Defer to the old data/generate_stories.py (retains settings/topics).
     script = PACKAGE_ROOT / "data" / "generate_stories.py"
     if not script.exists():
         print(f"{script} not found", file=sys.stderr)
         return 2
-    return subprocess.call([sys.executable, str(script)])
+    cmd = [sys.executable, str(script)]
+    if args.only:
+        cmd += ["--only", args.only, "--append"]
+    if args.no_neutral:
+        cmd += ["--no-neutral"]
+    return subprocess.call(cmd)
 
 
 def cmd_pull(args: argparse.Namespace) -> int:
@@ -198,11 +207,15 @@ def build_parser() -> argparse.ArgumentParser:
     sp_run = sub.add_parser("run", help="Full pipeline: extract + build.")
     _common_run(sp_run)
     sp_run.add_argument("--token-skip", type=int, default=50)
+    sp_run.add_argument("--gpu", default=None,
+                        help="Modal GPU spec (e.g. 'A100-40GB', 'A100-80GB', "
+                             "'H100', 'H200'). Default: A100-40GB. Use H100 for ≥20B.")
     sp_run.set_defaults(func=cmd_run)
 
     sp_ex = sub.add_parser("extract", help="Activation extraction only.")
     _common_run(sp_ex)
     sp_ex.add_argument("--token-skip", type=int, default=50)
+    sp_ex.add_argument("--gpu", default=None)
     sp_ex.set_defaults(func=cmd_extract)
 
     sp_bu = sub.add_parser("build", help="Build emotion bank + pick best layer.")
@@ -246,6 +259,10 @@ def build_parser() -> argparse.ArgumentParser:
     sp_gc = sub.add_parser("gen-corpus",
                            help="Generate stories via data/generate_stories.py "
                                 "(requires OPENAI_API_KEY).")
+    sp_gc.add_argument("--only", default=None,
+                       help="Comma-separated emotions; appends to existing corpus.")
+    sp_gc.add_argument("--no-neutral", action="store_true",
+                       help="Keep existing neutral corpus untouched.")
     sp_gc.set_defaults(func=cmd_gen_corpus)
 
     sp_pl = sub.add_parser("pull",
