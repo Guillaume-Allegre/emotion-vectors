@@ -9,3 +9,8 @@ venv/
 .ipynb_checkpoints/
 build/
 dist/
+
+# Regeneratable, large raw activations — kept on the Modal volume.
+# emotion_bank.pt IS tracked (it's the deliverable); activations.pt isn't.
+runs/*/activations.pt
+runs/*/neutral_activations.pt

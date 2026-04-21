@@ -22,16 +22,31 @@ from pathlib import Path
 
 import modal
 
-from .config import (
-    DEFAULT_EMOTIONS,
-    QUADRANT,
-    TOKEN_SKIP as DEFAULT_TOKEN_SKIP,
-    MODAL_APP_NAME,
-    MODAL_VOL,
-    MODAL_VOL_PATH,
-    EMOTION_STORIES_NAME,
-    NEUTRAL_STORIES_NAME,
-)
+# NOTE: This file is executed as a script by `modal run`, so relative imports
+# don't work. We inline the constants here; the same values are also exported
+# from `emotionvec.config` for local-CLI use.
+DEFAULT_EMOTIONS: list[str] = [
+    "excited", "joyful", "proud", "amused", "enthusiastic",
+    "ecstatic", "thrilled", "elated", "triumphant", "inspired",
+    "content", "calm", "grateful", "relieved", "affectionate",
+    "serene", "peaceful", "nostalgic", "satisfied", "tender",
+    "angry", "afraid", "anxious", "desperate", "disgusted",
+    "furious", "terrified", "jealous", "outraged", "frustrated",
+    "sad", "ashamed", "guilty", "lonely", "bored",
+    "melancholic", "regretful", "humiliated", "hopeless", "disappointed",
+]
+QUADRANT: dict[str, str] = {
+    **{e: "HAP" for e in DEFAULT_EMOTIONS[0:10]},
+    **{e: "LAP" for e in DEFAULT_EMOTIONS[10:20]},
+    **{e: "HAN" for e in DEFAULT_EMOTIONS[20:30]},
+    **{e: "LAN" for e in DEFAULT_EMOTIONS[30:40]},
+}
+DEFAULT_TOKEN_SKIP = 50
+MODAL_APP_NAME = "emotionvec"
+MODAL_VOL = "emotion-vectors-vol"
+MODAL_VOL_PATH = "/vol"
+EMOTION_STORIES_NAME = "emotion_stories.json"
+NEUTRAL_STORIES_NAME = "neutral_stories.json"
 
 
 # ---- Modal image ----
