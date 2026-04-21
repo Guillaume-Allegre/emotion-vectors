@@ -111,15 +111,23 @@ miss that metadata), and (b) they use the **20-emotion** set
 (`LEGACY_EMOTIONS_20` in `config.py`), not the current 40-emotion default.
 Re-run `emotionvec run` to produce a probe-ready 40-emotion bank if needed.
 
-Best-layer summary (from the migrated runs):
+Best-layer summary (20-way, paper-faithful):
 
-| Run | Model | n_layers | d_model | Best layer | Held-out acc (denoised) |
-|---|---|---:|---:|---:|---:|
-| `qwen25-1.5b` | `Qwen/Qwen2.5-1.5B-Instruct` | 28 | 1536 | 16 | 0.267 |
-| `qwen3-4b`    | `Qwen/Qwen3-4B-Instruct-2507` | 36 | 2560 | 19 | 0.317 |
-| `qwen3-8b`    | `Qwen/Qwen3-8B` | 36 | 4096 | 26 | 0.267 |
+| Run | Model | n_layers | d_model | Best L | % depth | acc_raw | acc_denoised | PCA ratio |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| `qwen25-1.5b`   | `Qwen/Qwen2.5-1.5B-Instruct` | 28 | 1536 | 16 | 57 % | 0.139 | 0.267 | ×1.92 |
+| `qwen3-4b`      | `Qwen/Qwen3-4B-Instruct-2507` | 36 | 2560 | 19 | 53 % | 0.128 | 0.317 | ×2.48 |
+| `qwen3-8b`      | `Qwen/Qwen3-8B` | 36 | 4096 | 26 | 72 % | 0.178 | 0.267 | ×1.50 |
+| `qwen3-30b-a3b` | `Qwen/Qwen3-30B-A3B` (MoE) | 48 | 2048 | 28 | 58 % | 0.117 | 0.239 | ×2.05 |
+
+Jeong's three claims (best layer ~50 % depth, PCA denoise ≈ ×2, anisotropy
+~0.85) replicate cleanly across this scale range. The one outlier is
+Qwen3-8B's hybrid-thinking architecture, which shifts the best layer
+deeper and cuts the PCA boost to ×1.50.
 
 Cross-model discussion: [`docs/RESULTS_COMPARISON.md`](docs/RESULTS_COMPARISON.md).
+Latest full paper-check on 30B-MoE (20-way and 40-way side-by-side):
+[`runs/qwen3-30b-a3b/PAPER_CHECK.md`](runs/qwen3-30b-a3b/PAPER_CHECK.md).
 
 ## Layout
 
